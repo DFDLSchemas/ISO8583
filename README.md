@@ -6,6 +6,8 @@ This GitHub repository hold DFDL schemas that model ISO8583 credit/debit card da
     ISO8583:1987 
     ISO8583:1993 (coming soon)
 
+To download the repository go to https://github.com/DFDLSchemas/ISO8583.
+
 Please read the LICENSE file for terms and conditions of use.
 
 ISO8583Format.xsd 
