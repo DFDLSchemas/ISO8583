@@ -24,3 +24,8 @@ A DFDL schema providing a model for standard ISO8583 1987 binary data.
 As a DFDL schema is also a valid XML schema, the DFDL schema also provides a model for for ISO8683 1997 data.
 
 
+ISO8583:1 1987 and ISO8583:1 1993 editions of the specification have been superseded by the ISO8583:1 2003 edition.
+
+ISO Standards can be obtained in PDF or hard copy formats from the ISO store: http://www.iso.org/iso/home/store.htm
+
+
