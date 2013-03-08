@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
    <!-- ******************************************************************
 	*
-    * The source code contained herein is licensed under the IBM Public License
+    * The source code contained herein is licensed under the Eclipse Public License
     * Version 1.0, which has been approved by the Open Source Initiative.
     * 
     * Copyright (C) 2013 International Business Machines Corporation and others.
     * All rights reserved.
+    *
+    * Permission to reproduce extracts from ISO 8583-1 is granted by BSI.  
+    * ISO Standards can be obtained in PDF or hard copy formats from the 
+    * ISO store: http://www.iso.org/iso/home/store.htm
 	*
 	***********************************************************************
 	*
