@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--     ****************************************************************** 
 	 * 
-	 * Permission has been granted to IBM by BSI to publish the following schema which contains material 
-	 * derived from ISO 8583-1. 
+	 * Permission has been granted to IBM by BSI to publish the following schema which contains material derived 
+	 * from ISO 8583-1. 
 	 *
-	 * Permission to reproduce extracts from ISO 8583-1 is granted by BSI.  ISO Standards can be obtained 
-	 * in PDF or hard copy formats from the ISO store: http://www.iso.org/iso/home/store.htm 
+	 * BSI and IBM hereby grant permission , to those obtaining a copy of these materials, to use, copy and modify 
+	 * the materials solely for use with DFDL processors. THESE MATERIALS ARE PROVIDED AS IS WITH NO WARRANTIES OF 
+	 * ANY KIND.  
 	 *
-	 * No other rights are hereby granted.   
+	 * For any further reproduction of ISO or BSI material please contact copyright@bsigroup.com 
 	 *
-	 * © Copyright ISO, 1987 
+	 * ISO Standards can be obtained in PDF or hard copy formats from the ISO store: 
+	 * http://www.iso.org/iso/home/store.htm 
+	 *
+	 * © Copyright ISO, 2003 
 	 *
 	 * © Copyright International Business Machines Corporation, 2013. 
+	 *
 	 ************************************************************************* 
 	 * Version 1.0 ISO8583_1987.xsd
 	 * 
