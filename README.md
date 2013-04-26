@@ -3,7 +3,7 @@ ISO8583-1 Financial transaction card originated messages -- Interchange message 
 
 This GitHub repository holds DFDL schemas that model ISO8583 credit/debit card data. There are DFDL schemas for the two most popular releases of the standard:
 
-    ISO8583-1:1987 (temporarily undergoing maintenance)
+    ISO8583-1:1987 
     ISO8583-1:1993 (coming soon)
 
 To download the repository go to http://dfdlschemas.github.com/ISO8583/.
@@ -14,12 +14,12 @@ A DFDL schema that contains default values for DFDL properties that are suitable
 
 ISO8583Types.xsd
 ----------------
-A DFDL schema that contains DFDL-annotated data types for all the main types used in ISO8583.
+A DFDL schema that contains DFDL-annotated data types for all the main types defined by ISO8583.
 
 ISO8583_1987.xsd
 ----------------
 A DFDL schema providing a model for standard ISO8583 1987 binary data.
-As a DFDL schema is also a valid XML schema, the DFDL schema also provides a model for for ISO8683 1997 data.
+As a DFDL schema is also a valid XML schema, the DFDL schema also provides a model for ISO8683 1997 XML data.
 
 ----------------
 ISO8583:1 1987 and ISO8583:1 1993 editions of the specification have been superseded by the ISO8583:1 2003 edition.
