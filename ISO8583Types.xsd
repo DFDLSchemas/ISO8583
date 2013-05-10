@@ -19,7 +19,7 @@
 	*
 	***********************************************************************
 	*
-	* Version 1.0 	ISO8583Types.xsd
+	* Version 1.1 	ISO8583Types.xsd
 	*
 	* This DFDL schema provides a set of DFDL-annotated data types  
 	* to assist in the creation of DFDL schemas that model ISO8583 1987 and 1993 data.   
@@ -46,7 +46,7 @@
 	</xsd:annotation>	
 		
 		
-	<xsd:simpleType name="Type_Bit" dfdl:alignmentUnits="bits" dfdl:binaryNumberRep="binary" dfdl:length="1" dfdl:lengthUnits="bits" dfdl:representation="binary" >
+	<xsd:simpleType name="Type_Bit" dfdl:byteOrder="bigEndian" dfdl:alignmentUnits="bits" dfdl:binaryNumberRep="binary" dfdl:length="1" dfdl:lengthUnits="bits" dfdl:representation="binary" >
 		<xsd:restriction base="xsd:unsignedInt"/>
 	</xsd:simpleType>	
 	
@@ -91,11 +91,11 @@
 	</xsd:simpleType>	
 			
     <xsd:simpleType dfdl:lengthKind="prefixed" dfdl:prefixLengthType="tns:PrefixLength2" name="Type_z_LL">
-		<xsd:restriction base="tns:Type_n_string"/>
+		<xsd:restriction base="tns:Type_ans_string"/>
 	</xsd:simpleType>
 	
     <xsd:simpleType dfdl:lengthKind="prefixed" dfdl:prefixLengthType="tns:PrefixLength3" name="Type_z_LLL">
-		<xsd:restriction base="tns:Type_n_string"/>
+		<xsd:restriction base="tns:Type_ans_string"/>
 	</xsd:simpleType>	
 		
     <xsd:simpleType dfdl:lengthKind="prefixed" dfdl:prefixLengthType="tns:PrefixLength2" name="Type_n_LL">
