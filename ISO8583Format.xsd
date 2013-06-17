@@ -19,32 +19,34 @@
 	*
 	***********************************************************************
 	*
-	* Version 1.0 	ISO8583Format.xsd
+	* Version 1.1 	ISO8583Format.xsd
 	*
 	* This DFDL schema provides a set of DFDL property values and other DFDL constructs 
 	* to assist in the creation of DFDL schemas that model ISO8583 1987 and 1993 data.   
 	* 
 	* To use the schema in another schema: 
-	*   <xsd:import namespace="http://www.ibm.com/dfdl/ISO8583Format" schemaLocation="ISO8583Format.xsd"/>
+	*   <xs:import namespace="http://www.ibm.com/dfdl/ISO8583Format" schemaLocation="ISO8583Format.xsd"/>
 	*
 	* To apply the contained property values as defaults to all objects in a schema:
-	*   <xsd:annotation>
-	*		<xsd:appinfo source="http://www.ogf.org/dfdl/">
+	*   <xs:annotation>
+	*		<xs:appinfo source="http://www.ogf.org/dfdl/">
 	*			<dfdl:format ref="ISO8583Format:ISO8583Format"/>
-	*		</xsd:appinfo>
-	*	</xsd:annotation>	
+	*		</xs:appinfo>
+	*	</xs:annotation>	
 	*      	
 	******************************************************************* -->
 	 
-<xsd:schema
+<xs:schema
 	targetNamespace="http://www.ibm.com/dfdl/ISO8583Format"
-	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
 	xmlns:dfdl="http://www.ogf.org/dfdl/dfdl-1.0/"
-	xmlns:tns="http://www.ibm.com/dfdl/ISO8583Format">
+	xmlns:tns="http://www.ibm.com/dfdl/ISO8583Format"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions" 
+	>
 	
 	<!-- A set of property values suitable for use as defaults for ISO8583 schema -->
-	<xsd:annotation>
-		<xsd:appinfo source="http://www.ogf.org/dfdl/">
+	<xs:annotation>
+		<xs:appinfo source="http://www.ogf.org/dfdl/">
 			<dfdl:defineFormat name="ISO8583Format">
 				<dfdl:format encoding="US-ASCII" ignoreCase="no" byteOrder="bigEndian" 
 					representation="text" textPadKind="none" textTrimKind="padChar" textBidi="no" escapeSchemeRef=""   
@@ -68,7 +70,7 @@
 					binaryFloatRep="ieee" binaryNumberCheckPolicy="lax" binaryDecimalVirtualPoint="0">				
 				</dfdl:format>
 			</dfdl:defineFormat>
-		</xsd:appinfo>
-	</xsd:annotation>
+		</xs:appinfo>
+	</xs:annotation>
 		
-</xsd:schema>
+</xs:schema>
