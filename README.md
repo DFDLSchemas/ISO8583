@@ -19,7 +19,7 @@ A DFDL schema that contains DFDL-annotated data types for all the main types def
 ISO8583_1987.xsd
 ----------------
 A DFDL schema providing a model for standard ISO8583 1987 binary data.
-As a DFDL schema is also a valid XML schema, the DFDL schema also provides a model for ISO8683 1997 XML data.
+As a DFDL schema is also a valid XML schema, the DFDL schema also provides a model for ISO8683 1987 XML data.
 
 ----------------
 ISO8583:1 1987 and ISO8583:1 1993 editions of the specification have been superseded by the ISO8583:1 2003 edition.
