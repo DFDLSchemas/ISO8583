@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <!-- ******************************************************************
+	* 
+	* Permission has been granted to IBM by BSI to publish the following schema which contains material derived 
+	* from ISO 8583-1. 
+	*
+	* BSI and IBM hereby grant permission, to those obtaining a copy of these materials, to use, copy and modify 
+	* the materials solely for use with DFDL processors. THESE MATERIALS ARE PROVIDED AS IS WITH NO WARRANTIES OF 
+	* ANY KIND.  
+	*
+	* For any further reproduction of ISO or BSI material please contact copyright@bsigroup.com 
+	*
+	* ISO Standards can be obtained in PDF or hard copy formats from the ISO store: 
+	* http://www.iso.org/iso/home/store.htm 
+	*
+	* © Copyright ISO, 2003 
+	*
+	* © Copyright International Business Machines Corporation, 2013, 2014. 
+	*
+	***********************************************************************
+	*
+	* Version 1.2 	ISO8583Format.xsd
+	*
+	* This DFDL schema provides a set of DFDL property values and other DFDL constructs 
+	* to assist in the creation of DFDL schemas that model ISO8583 1987 and 1993 data.   
+	* 
+	* To use the schema in another schema: 
+	*   <xs:import namespace="http://www.ibm.com/dfdl/ISO8583Format" schemaLocation="ISO8583Format.xsd"/>
+	*
+	* To apply the contained property values as defaults to all objects in a schema:
+	*   <xs:annotation>
+	*		<xs:appinfo source="http://www.ogf.org/dfdl/">
+	*			<dfdl:format ref="ISO8583Format:ISO8583Format"/>
+	*		</xs:appinfo>
+	*	</xs:annotation>	
+	*      	
+	******************************************************************* -->
+	 
+<xs:schema
+	targetNamespace="http://www.ibm.com/dfdl/ISO8583Format"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:dfdl="http://www.ogf.org/dfdl/dfdl-1.0/"
+	xmlns:tns="http://www.ibm.com/dfdl/ISO8583Format"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions" 
+	>
+	
+	<!-- A set of property values suitable for use as defaults for ISO8583 schema -->
+	<xs:annotation>
+		<xs:appinfo source="http://www.ogf.org/dfdl/">
+
+	        <dfdl:defineVariable defaultValue="false" external="false" name="secondaryBitmapExists" type="xs:boolean"/>
+
+			<dfdl:defineFormat name="ISO8583Format">
+				<dfdl:format encoding="US-ASCII" ignoreCase="no" byteOrder="bigEndian" 
+					representation="text" textPadKind="none" textTrimKind="padChar" textBidi="no" escapeSchemeRef=""   
+					textStringJustification="left" truncateSpecifiedLengthString="no" textStringPadCharacter="%SP;"
+					decimalSigned="yes" textNumberRep="standard" textNumberCheckPolicy="lax" textNumberJustification="right" 
+					textNumberPadCharacter="%SP;" textNumberRoundingMode="roundUp" textNumberRounding="pattern"   
+					textZonedSignStyle="asciiStandard"
+					textStandardBase="10" textStandardDecimalSeparator="." textStandardExponentCharacter="E" 
+					textStandardInfinityRep="Inf" textStandardNaNRep="NaN" textStandardGroupingSeparator="," textStandardZeroRep="" 
+					textBooleanJustification="left" textBooleanPadCharacter="%SP;"
+					calendarPatternKind="implicit" calendarPattern="yyyy-MM-dd'T'HH:mm:ss" calendarCheckPolicy="lax" calendarTimeZone="UTC" 
+					calendarObserveDST="yes" calendarFirstDayOfWeek="Monday" calendarDaysInFirstWeek="4" calendarCenturyStart="53" calendarLanguage="en-US" 
+					textCalendarJustification="left" textBooleanTrueRep="true" textBooleanFalseRep="false" textCalendarPadCharacter="%SP;" 
+					sequenceKind="ordered" floating="no" separator="" separatorPolicy="required" separatorPosition="infix"
+					choiceLengthKind="implicit" initiatedContent="no"  
+					lengthKind="explicit" prefixIncludesPrefixLength="no" lengthUnits="bytes"  
+					alignment="1" alignmentUnits="bytes" leadingSkip="0" trailingSkip="0" fillByte="0" 
+					nilValueDelimiterPolicy="none" emptyValueDelimiterPolicy="none"  
+					initiator="" terminator="" documentFinalTerminatorCanBeMissing="no" outputNewLine="%CR;%LF;" 
+					occursCountKind="expression" 
+					binaryFloatRep="ieee" binaryNumberCheckPolicy="lax" binaryDecimalVirtualPoint="0">				
+				</dfdl:format>
+			</dfdl:defineFormat>
+		</xs:appinfo>
+	</xs:annotation>
+		
+</xs:schema>

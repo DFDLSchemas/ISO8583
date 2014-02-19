@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <!-- ******************************************************************
+	* 
+	* Permission has been granted to IBM by BSI to publish the following schema which contains material derived 
+	* from ISO 8583-1. 
+	*
+	* BSI and IBM hereby grant permission, to those obtaining a copy of these materials, to use, copy and modify 
+	* the materials solely for use with DFDL processors. THESE MATERIALS ARE PROVIDED AS IS WITH NO WARRANTIES OF 
+	* ANY KIND.  
+	*
+	* For any further reproduction of ISO or BSI material please contact copyright@bsigroup.com 
+	*
+	* ISO Standards can be obtained in PDF or hard copy formats from the ISO store: 
+	* http://www.iso.org/iso/home/store.htm 
+	*
+	* © Copyright ISO, 2003 
+	*
+	* © Copyright International Business Machines Corporation, 2013, 2014. 
+	*
+	***********************************************************************
+	*
+	* Version 1.2 	ISO8583Types.xsd
+	*
+	* This DFDL schema provides a set of DFDL-annotated data types  
+	* to assist in the creation of DFDL schemas that model ISO8583 1987 and 1993 data.   
+	* 
+	* To use the schema in another schema: 
+	*   <xs:import namespace="http://www.ibm.com/dfdl/ISO8583Types" schemaLocation="ISO8583Types.xsd"/>
+	*
+	******************************************************************* -->
+<xs:schema
+	targetNamespace="http://www.ibm.com/dfdl/ISO8583Types"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:dfdl="http://www.ogf.org/dfdl/dfdl-1.0/"
+	xmlns:tns="http://www.ibm.com/dfdl/ISO8583Types"
+	xmlns:ISO8583Format="http://www.ibm.com/dfdl/ISO8583Format"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions" 
+	>
+	
+    <xs:import namespace="http://www.ibm.com/dfdl/ISO8583Format" schemaLocation="ISO8583Format.xsd"/>			
+
+    <xs:annotation>
+		<xs:appinfo source="http://www.ogf.org/dfdl/">
+			<!-- Format annotation to apply default property values to all objects -->  
+			<dfdl:format ref="ISO8583Format:ISO8583Format"/>
+		</xs:appinfo>
+	</xs:annotation>	
+		
+		
+	<xs:simpleType name="Type_Bit" dfdl:byteOrder="bigEndian" dfdl:alignmentUnits="bits" dfdl:binaryNumberRep="binary" dfdl:length="1" dfdl:lengthUnits="bits" dfdl:representation="binary" >
+		<xs:restriction base="xs:unsignedInt"/>
+	</xs:simpleType>	
+	
+	<xs:simpleType name="Type_Bit_Unpacked" dfdl:length="1" dfdl:lengthUnits="characters" >
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>	
+	
+	<xs:simpleType dfdl:textStringJustification="right" dfdl:textStringPadCharacter="0" dfdl:textTrimKind="none" name="Type_n_string">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d+"/>
+		</xs:restriction>
+	</xs:simpleType>	
+	
+	<xs:simpleType dfdl:textStringJustification="left" dfdl:textStringPadCharacter="%SP;" dfdl:textTrimKind="none" name="Type_an_string">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\w+"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+		<xs:simpleType dfdl:textStringJustification="left" dfdl:textStringPadCharacter="%SP;" dfdl:textTrimKind="none" name="Type_ans_string">
+		<xs:restriction base="xs:string">
+			<xs:pattern value=".+"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="Type_b_hexBinary" dfdl:representation="binary">
+		<xs:restriction base="xs:hexBinary">
+			<xs:minLength value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+    <xs:simpleType dfdl:lengthKind="prefixed" dfdl:prefixLengthType="tns:PrefixLength2" name="Type_an_LL">
+		<xs:restriction base="tns:Type_an_string"/>
+	</xs:simpleType>			
+	
+    <xs:simpleType dfdl:lengthKind="prefixed" dfdl:prefixLengthType="tns:PrefixLength3" name="Type_an_LLL">
+		<xs:restriction base="tns:Type_an_string"/>
+	</xs:simpleType>	
+					
+    <xs:simpleType dfdl:lengthKind="prefixed" dfdl:prefixLengthType="tns:PrefixLength2" name="Type_ans_LL">
+		<xs:restriction base="tns:Type_ans_string"/>
+	</xs:simpleType>	
+			
+    <xs:simpleType dfdl:lengthKind="prefixed" dfdl:prefixLengthType="tns:PrefixLength3" name="Type_ans_LLL">
+		<xs:restriction base="tns:Type_ans_string"/>
+	</xs:simpleType>	
+			
+    <xs:simpleType dfdl:lengthKind="prefixed" dfdl:prefixLengthType="tns:PrefixLength2" name="Type_z_LL">
+		<xs:restriction base="tns:Type_ans_string"/>
+	</xs:simpleType>
+	
+    <xs:simpleType dfdl:lengthKind="prefixed" dfdl:prefixLengthType="tns:PrefixLength3" name="Type_z_LLL">
+		<xs:restriction base="tns:Type_ans_string"/>
+	</xs:simpleType>	
+		
+    <xs:simpleType dfdl:lengthKind="prefixed" dfdl:prefixLengthType="tns:PrefixLength2" name="Type_n_LL">
+		<xs:restriction base="tns:Type_n_string"/>
+	</xs:simpleType>
+	
+    <xs:simpleType dfdl:lengthKind="prefixed" dfdl:prefixLengthType="tns:PrefixLength3" name="Type_n_LLL">
+		<xs:restriction base="tns:Type_n_string"/>
+	</xs:simpleType>	
+	
+	<xs:simpleType dfdl:textNumberPadCharacter="0" dfdl:textPadKind="padChar" dfdl:textTrimKind="padChar" name="Type_n_decimal">
+		<xs:restriction base="xs:decimal"/>
+	</xs:simpleType>
+	
+	<xs:simpleType name="Type_n_dateTime" dfdl:calendarPattern="MMddHHmmss" dfdl:calendarPatternKind="explicit">
+		<xs:restriction base="xs:dateTime"/>
+	</xs:simpleType>
+	
+	<xs:simpleType name="Type_n_time" dfdl:calendarPattern="HHmmss" dfdl:calendarPatternKind="explicit">
+		<xs:restriction base="xs:time"/>
+	</xs:simpleType>
+	
+	<xs:simpleType name="Type_n_monthDay" dfdl:calendarPattern="MMdd" dfdl:calendarPatternKind="explicit">
+		<xs:restriction base="xs:date"/>
+	</xs:simpleType>
+	
+	<xs:simpleType name="Type_n_yearMonth" dfdl:calendarPattern="yyMM" dfdl:calendarPatternKind="explicit">
+		<xs:restriction base="xs:date"/>
+	</xs:simpleType>
+	
+	<xs:simpleType name="Type_n_yearMonthDay" dfdl:calendarPattern="yyMMdd" dfdl:calendarPatternKind="explicit">
+		<xs:restriction base="xs:date"/>
+	</xs:simpleType>
+	
+   	<xs:simpleType dfdl:length="3" dfdl:lengthUnits="bytes" dfdl:textNumberPadCharacter="0" dfdl:textNumberPattern="000" dfdl:textNumberRep="standard" dfdl:textPadKind="padChar" name="PrefixLength3">
+    	<xs:restriction base="xs:integer"/>
+  	</xs:simpleType>
+  	
+  	<xs:simpleType dfdl:length="2" dfdl:lengthUnits="bytes" dfdl:textNumberCheckPolicy="lax" dfdl:textNumberPadCharacter="0" dfdl:textNumberPattern="00" dfdl:textNumberRep="standard" dfdl:textPadKind="padChar" name="PrefixLength2">
+    	<xs:restriction base="xs:integer"/>
+  	</xs:simpleType>
+		
+</xs:schema>
