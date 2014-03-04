@@ -27,6 +27,11 @@ Note that the dfdl:occursCount expressions used in the model for the 'unpacked' 
 A more natural approach is to use the dfdl:testBit function but that is not yet supported by IBM DFDL.
 
 ----------------
+IBM WebSphere Message Broker and IBM Integration Bus
+
+It is recommended that each folder becomes a folder of the same name in a single library project.
+
+----------------
 ISO8583:1 1987 and ISO8583:1 1993 editions of the specification have been superseded by the ISO8583:1 2003 edition.
 
 ISO Standards can be obtained in PDF or hard copy formats from the ISO store: http://www.iso.org/iso/home/store.htm
