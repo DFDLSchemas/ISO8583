@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<iso1993:ISO8583_1993 xmlns:iso1993="http://www.ibm.com/dfdl/ISO8583-1993" xmlns:tns="http://www.ibm.com/dfdl/ISO8583Format" xmlns:tns1="http://www.ibm.com/dfdl/ISO8583Types" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ibm.com/dfdl/ISO8583Format ISO8583Format.xsd http://www.ibm.com/dfdl/ISO8583Types ISO8583Types.xsd ">
-  <MTI_Version xsi:type="xs:integer">1</MTI_Version>
-  <MTI_MessageClass xsi:type="xs:integer">1</MTI_MessageClass>
-  <MTI_MessageFunction xsi:type="xs:integer">1</MTI_MessageFunction>
-  <MTI_MessageOrigin xsi:type="xs:integer">1</MTI_MessageOrigin>
-  <PrimaryBitmap>
+<ISO8583_1993 xmlns="http://www.ibm.com/dfdl/ISO8583-1993" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MTI_Version xmlns="" xsi:type="xs:integer">1</MTI_Version>
+  <MTI_MessageClass xmlns="" xsi:type="xs:integer">1</MTI_MessageClass>
+  <MTI_MessageFunction xmlns="" xsi:type="xs:integer">1</MTI_MessageFunction>
+  <MTI_MessageOrigin xmlns="" xsi:type="xs:integer">1</MTI_MessageOrigin>
+  <PrimaryBitmap xmlns="">
     <Bit001 xsi:type="xs:unsignedInt">1</Bit001>
     <Bit002 xsi:type="xs:unsignedInt">1</Bit002>
     <Bit003 xsi:type="xs:unsignedInt">1</Bit003>
@@ -70,7 +70,7 @@
     <Bit063 xsi:type="xs:unsignedInt">1</Bit063>
     <Bit064 xsi:type="xs:unsignedInt">1</Bit064>
   </PrimaryBitmap>
-  <SecondaryBitmap>
+  <SecondaryBitmap xmlns="">
     <Bit065 xsi:type="xs:unsignedInt">1</Bit065>
     <Bit066 xsi:type="xs:unsignedInt">1</Bit066>
     <Bit067 xsi:type="xs:unsignedInt">1</Bit067>
@@ -136,131 +136,131 @@
     <Bit127 xsi:type="xs:unsignedInt">1</Bit127>
     <Bit128 xsi:type="xs:unsignedInt">1</Bit128>
   </SecondaryBitmap>
-  <PrimaryAccountNumber_002 xsi:type="xs:string">1234567890123456789</PrimaryAccountNumber_002>
-  <ProcessingCode_003 xsi:type="xs:string">123456</ProcessingCode_003>
-  <AmountTransaction_004 xsi:type="xs:decimal">123456789012</AmountTransaction_004>
-  <AmountReconciliation_005 xsi:type="xs:decimal">123456789012</AmountReconciliation_005>
-  <AmountCardHolderBilling_006 xsi:type="xs:decimal">123456789012</AmountCardHolderBilling_006>
-  <DateTimeTransmission_007 xsi:type="xs:dateTime">2001-12-31T23:59:59</DateTimeTransmission_007>
-  <AmountCardHolderBillingFee_008 xsi:type="xs:string">12345678</AmountCardHolderBillingFee_008>
-  <ConversionRateReconciliation_009 xsi:type="xs:string">12345678</ConversionRateReconciliation_009>
-  <ConversionRateCardholderBilling_010 xsi:type="xs:string">12345678</ConversionRateCardholderBilling_010>
-  <SystemsTraceAuditNumber_011 xsi:type="xs:string">123456</SystemsTraceAuditNumber_011>
-  <DateTimeLocalTransaction_012 xsi:type="xs:dateTime">1999-12-31T12:00:00</DateTimeLocalTransaction_012>
-  <DateEffective_013 xsi:type="xs:date">1999-12-01</DateEffective_013>
-  <DateExpiration_014 xsi:type="xs:date">1999-12-01</DateExpiration_014>
-  <DateSettlement_015 xsi:type="xs:date">1999-12-31</DateSettlement_015>
-  <DateConversion_016 xsi:type="xs:date">2010-12-31</DateConversion_016>
-  <DateCapture_017 xsi:type="xs:date">2010-12-31</DateCapture_017>
-  <MerchantType_018 xsi:type="xs:string">1234</MerchantType_018>
-  <CountryCodeAcquiringInstitution_019 xsi:type="xs:string">123</CountryCodeAcquiringInstitution_019>
-  <CountryCodePrimaryAccountNumber_020 xsi:type="xs:string">123</CountryCodePrimaryAccountNumber_020>
-  <CountryCodeForwardingInstitution_021 xsi:type="xs:string">123</CountryCodeForwardingInstitution_021>
-  <PointOfServiceDataCode_022 xsi:type="xs:string">A1B2C3D4E5F6</PointOfServiceDataCode_022>
-  <CardSequenceNumber_023 xsi:type="xs:string">123</CardSequenceNumber_023>
-  <FunctionCode_024 xsi:type="xs:string">123</FunctionCode_024>
-  <MessageReasonCode_025 xsi:type="xs:string">1234</MessageReasonCode_025>
-  <CardAcceptorBusinessCode_026 xsi:type="xs:string">1234</CardAcceptorBusinessCode_026>
-  <ApprovalCodeLength_027 xsi:type="xs:string">1</ApprovalCodeLength_027>
-  <DateReconciliation_028 xsi:type="xs:date">1999-12-31</DateReconciliation_028>
-  <ReconciliationIndicator_029 xsi:type="xs:string">123</ReconciliationIndicator_029>
-  <AmountsOriginal_030 xsi:type="xs:string">123456789012345678901234</AmountsOriginal_030>
-  <AcquirerReferenceData_031 xsi:type="xs:string">C0001500</AcquirerReferenceData_031>
-  <AcquiringInstitutionIdentificationCode_032 xsi:type="xs:string">12345678901</AcquiringInstitutionIdentificationCode_032>
-  <ForwardingInstitutionIdentificationCode_033 xsi:type="xs:string">12345678901</ForwardingInstitutionIdentificationCode_033>
-  <PrimaryAccountNumberExtended_034 xsi:type="xs:string">1234567890123456789012345678</PrimaryAccountNumberExtended_034>
-  <Track2Data_035 xsi:type="xs:string">;11111111111111111=1215=?1</Track2Data_035>
-  <Track3Data_036 xsi:type="xs:string">;112222222222222222222=1231123412341234121123456112121212341?1</Track3Data_036>
-  <RetrievalReferenceNumber_037 xsi:type="xs:string">A1B2C3D4E5F6</RetrievalReferenceNumber_037>
-  <ApprovalCode_038 xsi:type="xs:string">A1B2C3</ApprovalCode_038>
-  <ActionCode_039 xsi:type="xs:string">123</ActionCode_039>
-  <ServiceCode_040 xsi:type="xs:string">123</ServiceCode_040>
-  <CardAcceptorTerminalIdentification_041 xsi:type="xs:string">A1A#A1A#</CardAcceptorTerminalIdentification_041>
-  <CardAcceptorIdentificationCode_042 xsi:type="xs:string">A1#A1#A1#A1#A1#</CardAcceptorIdentificationCode_042>
-  <CardAcceptorNameLocation_043 xsi:type="xs:string">A1#A1#A1#A1#A1#</CardAcceptorNameLocation_043>
-  <AdditionalResponseData_044 xsi:type="xs:string">A1#A1#A1#A1#A1#</AdditionalResponseData_044>
-  <Track1Data_045 xsi:type="xs:string">%A11111111111111111^JOHN DOE^1215^?</Track1Data_045>
-  <AmountsFees_046 xsi:type="xs:string">A1#A1#A1#A1#A1#</AmountsFees_046>
-  <AdditionalDataNational_047 xsi:type="xs:string">A1#A1#A1#A1#A1#</AdditionalDataNational_047>
-  <AdditionalDataPrivate_048 xsi:type="xs:string">A1#A1#A1#A1#A1#</AdditionalDataPrivate_048>
-  <CurrencyCodeTransaction_049 xsi:type="xs:string">ABC</CurrencyCodeTransaction_049>
-  <CurrencyCodeReconciliation_050 xsi:type="xs:string">ABC</CurrencyCodeReconciliation_050>
-  <CurrencyCodeCardholderBilling_051 xsi:type="xs:string">ABC</CurrencyCodeCardholderBilling_051>
-  <PersonalIdentificationNumberData_052 xsi:type="xs:hexBinary">0F0F0F0F0F0F0F0F</PersonalIdentificationNumberData_052>
-  <SecurityRelatedControlInformation_053 xsi:type="xs:hexBinary">0F0F0F0F0F0F0F0F</SecurityRelatedControlInformation_053>
-  <AmountsAdditional_054 xsi:type="xs:string">12345678</AmountsAdditional_054>
-  <IntegratedCircuitCardSystemRelatedData_055 xsi:type="xs:hexBinary">0F0F0F0F0F0F0F0F</IntegratedCircuitCardSystemRelatedData_055>
-  <OriginalDataElements_056 xsi:type="xs:string">1</OriginalDataElements_056>
-  <AuthorizationLifeCycleCode_057 xsi:type="xs:string">123</AuthorizationLifeCycleCode_057>
-  <AuthorizingAgentInstitutionIdentificationCode_058 xsi:type="xs:string">1</AuthorizingAgentInstitutionIdentificationCode_058>
-  <TransportData_059 xsi:type="xs:string">1</TransportData_059>
-  <ReservedForNationalUse_060 xsi:type="xs:string">1</ReservedForNationalUse_060>
-  <ReservedForNationalUse_061 xsi:type="xs:string">1</ReservedForNationalUse_061>
-  <ReservedForPrivateUse_062 xsi:type="xs:string">1</ReservedForPrivateUse_062>
-  <ReservedForPrivateUse_063 xsi:type="xs:string">1</ReservedForPrivateUse_063>
-  <MessageAuthenticationCodeField_064 xsi:type="xs:hexBinary">0F0F0F0F0F0F0F0F</MessageAuthenticationCodeField_064>
-  <ReservedForISOUse_065 xsi:type="xs:hexBinary">0000000000000000</ReservedForISOUse_065>
-  <AmountsOriginalFees_066 xsi:type="xs:string">1</AmountsOriginalFees_066>
-  <ExtendedPaymentData_067 xsi:type="xs:string">12</ExtendedPaymentData_067>
-  <CountryCodeReceivingInstitution_068 xsi:type="xs:string">123</CountryCodeReceivingInstitution_068>
-  <CountryCodeSettlementInstitution_069 xsi:type="xs:string">123</CountryCodeSettlementInstitution_069>
-  <CountryCodeAuthorizingAgentInstitution_070 xsi:type="xs:string">123</CountryCodeAuthorizingAgentInstitution_070>
-  <MessageNumber_071 xsi:type="xs:string">12345678</MessageNumber_071>
-  <DataRecord_072 xsi:type="xs:string">1</DataRecord_072>
-  <DateAction_073 xsi:type="xs:date">2010-12-31</DateAction_073>
-  <CreditsNumber_074 xsi:type="xs:string">1234567890</CreditsNumber_074>
-  <CreditsReversalNumber_075 xsi:type="xs:string">1234567890</CreditsReversalNumber_075>
-  <DebitsNumber_076 xsi:type="xs:string">1234567890</DebitsNumber_076>
-  <DebitsReversalNumber_077 xsi:type="xs:string">1234567890</DebitsReversalNumber_077>
-  <TransferNumber_078 xsi:type="xs:string">1234567890</TransferNumber_078>
-  <TransferReversalNumber_079 xsi:type="xs:string">1234567890</TransferReversalNumber_079>
-  <InquiriesNumber_080 xsi:type="xs:string">1234567890</InquiriesNumber_080>
-  <AuthorizationsNumber_081 xsi:type="xs:string">1234567890</AuthorizationsNumber_081>
-  <InquiriesReversalNumber_082 xsi:type="xs:string">1234567890</InquiriesReversalNumber_082>
-  <PaymentsNumber_083 xsi:type="xs:string">1234567890</PaymentsNumber_083>
-  <PaymentsReversalNumber_084 xsi:type="xs:string">1234567890</PaymentsReversalNumber_084>
-  <FeeCollectionsNumber_085 xsi:type="xs:string">1234567890</FeeCollectionsNumber_085>
-  <CreditsAmount_086 xsi:type="xs:string">1234567890123456</CreditsAmount_086>
-  <CreditsReversalAmount_087 xsi:type="xs:string">1234567890123456</CreditsReversalAmount_087>
-  <DebitsAmount_088 xsi:type="xs:string">1234567890123456</DebitsAmount_088>
-  <DebitsReversalAmount_089 xsi:type="xs:string">1234567890123456</DebitsReversalAmount_089>
-  <AuthorizationsReversalNumber_090 xsi:type="xs:string">1234567890</AuthorizationsReversalNumber_090>
-  <CountryCodeTransactionDestinationInstitution_091 xsi:type="xs:string">123</CountryCodeTransactionDestinationInstitution_091>
-  <CountryCodeTransactionOriginatorInstitution_092 xsi:type="xs:string">123</CountryCodeTransactionOriginatorInstitution_092>
-  <TransactionDestinationInstitutionIdentificationCode_093 xsi:type="xs:string">1</TransactionDestinationInstitutionIdentificationCode_093>
-  <TransactionOriginatorInstitutionIdentificationCode_094 xsi:type="xs:string">1</TransactionOriginatorInstitutionIdentificationCode_094>
-  <CardIssuerReferenceData_095 xsi:type="xs:string">1</CardIssuerReferenceData_095>
-  <KeyManagementData_096 xsi:type="xs:hexBinary">0F</KeyManagementData_096>
-  <AmountNetReconciliation_097 xsi:type="xs:string">C1234567890123456</AmountNetReconciliation_097>
-  <Payee_098 xsi:type="xs:string">A1#A1#A1#A1#A1#A1#A1#A1#A</Payee_098>
-  <SettlementInstitutionIdentificationCode_099 xsi:type="xs:string">1</SettlementInstitutionIdentificationCode_099>
-  <ReceivingInstitutionIdentificationCode_100 xsi:type="xs:string">1</ReceivingInstitutionIdentificationCode_100>
-  <FileName_101 xsi:type="xs:string">A1#A1#A1#A1#A1#A1</FileName_101>
-  <AccountIdentification1_102 xsi:type="xs:string">A1#A1#A1#A1#A1#A1</AccountIdentification1_102>
-  <AccountIdentification2_103 xsi:type="xs:string">A1#A1#A1#A1#A1#A1</AccountIdentification2_103>
-  <TransactionDescription_104 xsi:type="xs:string">A1#A1#A1#A1#A1#A1</TransactionDescription_104>
-  <CreditsChargebackAmount_105 xsi:type="xs:string">1234567890123456</CreditsChargebackAmount_105>
-  <DebitsChargebackAmount_106 xsi:type="xs:string">1234567890123456</DebitsChargebackAmount_106>
-  <CreditsChargebackNumber_107 xsi:type="xs:string">1234567890</CreditsChargebackNumber_107>
-  <DebitsChargebackNumber_108 xsi:type="xs:string">1234567890</DebitsChargebackNumber_108>
-  <CreditsFeeAmounts_109 xsi:type="xs:string">A1#</CreditsFeeAmounts_109>
-  <DebitsFeeAmounts_110 xsi:type="xs:string">A1#</DebitsFeeAmounts_110>
-  <ReservedForISOUse_111 xsi:type="xs:string">A1#</ReservedForISOUse_111>
-  <ReservedForISOUse_112 xsi:type="xs:string">A1#</ReservedForISOUse_112>
-  <ReservedForISOUse_113 xsi:type="xs:string">A1#</ReservedForISOUse_113>
-  <ReservedForISOUse_114 xsi:type="xs:string">A1#</ReservedForISOUse_114>
-  <ReservedForISOUse_115 xsi:type="xs:string">A1#</ReservedForISOUse_115>
-  <ReservedForNationalUse_116 xsi:type="xs:string">A1#</ReservedForNationalUse_116>
-  <ReservedForNationalUse117 xsi:type="xs:string">A1#</ReservedForNationalUse117>
-  <ReservedForNationalUse_118 xsi:type="xs:string">A1#</ReservedForNationalUse_118>
-  <ReservedForNationalUse_119 xsi:type="xs:string">A1#</ReservedForNationalUse_119>
-  <ReservedForNationalUse_120 xsi:type="xs:string">A1#</ReservedForNationalUse_120>
-  <ReservedForNationalUse_121 xsi:type="xs:string">A1#</ReservedForNationalUse_121>
-  <ReservedForNationalUse_122 xsi:type="xs:string">A1#</ReservedForNationalUse_122>
-  <ReservedForPrivateUse_123 xsi:type="xs:string">A1#</ReservedForPrivateUse_123>
-  <ReservedForPrivateUse_124 xsi:type="xs:string">A1#</ReservedForPrivateUse_124>
-  <ReservedForPrivateUse_125 xsi:type="xs:string">A1#</ReservedForPrivateUse_125>
-  <ReservedForPrivateUse_126 xsi:type="xs:string">A1#</ReservedForPrivateUse_126>
-  <ReservedForPrivateUse_127 xsi:type="xs:string">A1#</ReservedForPrivateUse_127>
-  <MessageAuthenticationCode_128 xsi:type="xs:hexBinary">0F0F0F0F0F0F0F0F</MessageAuthenticationCode_128>
-</iso1993:ISO8583_1993>
+  <PrimaryAccountNumber_002 xmlns="" xsi:type="xs:string">1234567890123456789</PrimaryAccountNumber_002>
+  <ProcessingCode_003 xmlns="" xsi:type="xs:string">123456</ProcessingCode_003>
+  <AmountTransaction_004 xmlns="" xsi:type="xs:decimal">123456789012</AmountTransaction_004>
+  <AmountReconciliation_005 xmlns="" xsi:type="xs:decimal">123456789012</AmountReconciliation_005>
+  <AmountCardHolderBilling_006 xmlns="" xsi:type="xs:decimal">123456789012</AmountCardHolderBilling_006>
+  <DateTimeTransmission_007 xmlns="" xsi:type="xs:dateTime">1970-12-31T23:59:59.000000+00:00</DateTimeTransmission_007>
+  <AmountCardHolderBillingFee_008 xmlns="" xsi:type="xs:string">12345678</AmountCardHolderBillingFee_008>
+  <ConversionRateReconciliation_009 xmlns="" xsi:type="xs:string">12345678</ConversionRateReconciliation_009>
+  <ConversionRateCardholderBilling_010 xmlns="" xsi:type="xs:string">12345678</ConversionRateCardholderBilling_010>
+  <SystemsTraceAuditNumber_011 xmlns="" xsi:type="xs:string">123456</SystemsTraceAuditNumber_011>
+  <DateTimeLocalTransaction_012 xmlns="" xsi:type="xs:dateTime">1999-12-31T12:00:00.000000+00:00</DateTimeLocalTransaction_012>
+  <DateEffective_013 xmlns="" xsi:type="xs:date">1999-12-01+00:00</DateEffective_013>
+  <DateExpiration_014 xmlns="" xsi:type="xs:date">1999-12-01+00:00</DateExpiration_014>
+  <DateSettlement_015 xmlns="" xsi:type="xs:date">1999-12-31+00:00</DateSettlement_015>
+  <DateConversion_016 xmlns="" xsi:type="xs:date">1970-12-31+00:00</DateConversion_016>
+  <DateCapture_017 xmlns="" xsi:type="xs:date">1970-12-31+00:00</DateCapture_017>
+  <MerchantType_018 xmlns="" xsi:type="xs:string">1234</MerchantType_018>
+  <CountryCodeAcquiringInstitution_019 xmlns="" xsi:type="xs:string">123</CountryCodeAcquiringInstitution_019>
+  <CountryCodePrimaryAccountNumber_020 xmlns="" xsi:type="xs:string">123</CountryCodePrimaryAccountNumber_020>
+  <CountryCodeForwardingInstitution_021 xmlns="" xsi:type="xs:string">123</CountryCodeForwardingInstitution_021>
+  <PointOfServiceDataCode_022 xmlns="" xsi:type="xs:string">A1B2C3D4E5F6</PointOfServiceDataCode_022>
+  <CardSequenceNumber_023 xmlns="" xsi:type="xs:string">123</CardSequenceNumber_023>
+  <FunctionCode_024 xmlns="" xsi:type="xs:string">123</FunctionCode_024>
+  <MessageReasonCode_025 xmlns="" xsi:type="xs:string">1234</MessageReasonCode_025>
+  <CardAcceptorBusinessCode_026 xmlns="" xsi:type="xs:string">1234</CardAcceptorBusinessCode_026>
+  <ApprovalCodeLength_027 xmlns="" xsi:type="xs:string">1</ApprovalCodeLength_027>
+  <DateReconciliation_028 xmlns="" xsi:type="xs:date">1999-12-31+00:00</DateReconciliation_028>
+  <ReconciliationIndicator_029 xmlns="" xsi:type="xs:string">123</ReconciliationIndicator_029>
+  <AmountsOriginal_030 xmlns="" xsi:type="xs:string">123456789012345678901234</AmountsOriginal_030>
+  <AcquirerReferenceData_031 xmlns="" xsi:type="xs:string">C0001500</AcquirerReferenceData_031>
+  <AcquiringInstitutionIdentificationCode_032 xmlns="" xsi:type="xs:string">12345678901</AcquiringInstitutionIdentificationCode_032>
+  <ForwardingInstitutionIdentificationCode_033 xmlns="" xsi:type="xs:string">12345678901</ForwardingInstitutionIdentificationCode_033>
+  <PrimaryAccountNumberExtended_034 xmlns="" xsi:type="xs:string">1234567890123456789012345678</PrimaryAccountNumberExtended_034>
+  <Track2Data_035 xmlns="" xsi:type="xs:string">;11111111111111111=1215=?1</Track2Data_035>
+  <Track3Data_036 xmlns="" xsi:type="xs:string">;112222222222222222222=1231123412341234121123456112121212341?1</Track3Data_036>
+  <RetrievalReferenceNumber_037 xmlns="" xsi:type="xs:string">A1B2C3D4E5F6</RetrievalReferenceNumber_037>
+  <ApprovalCode_038 xmlns="" xsi:type="xs:string">A1B2C3</ApprovalCode_038>
+  <ActionCode_039 xmlns="" xsi:type="xs:string">123</ActionCode_039>
+  <ServiceCode_040 xmlns="" xsi:type="xs:string">123</ServiceCode_040>
+  <CardAcceptorTerminalIdentification_041 xmlns="" xsi:type="xs:string">A1A#A1A#</CardAcceptorTerminalIdentification_041>
+  <CardAcceptorIdentificationCode_042 xmlns="" xsi:type="xs:string">A1#A1#A1#A1#A1#</CardAcceptorIdentificationCode_042>
+  <CardAcceptorNameLocation_043 xmlns="" xsi:type="xs:string">A1#A1#A1#A1#A1#</CardAcceptorNameLocation_043>
+  <AdditionalResponseData_044 xmlns="" xsi:type="xs:string">A1#A1#A1#A1#A1#</AdditionalResponseData_044>
+  <Track1Data_045 xmlns="" xsi:type="xs:string">%A11111111111111111^JOHN DOE^1215^?</Track1Data_045>
+  <AmountsFees_046 xmlns="" xsi:type="xs:string">A1#A1#A1#A1#A1#</AmountsFees_046>
+  <AdditionalDataNational_047 xmlns="" xsi:type="xs:string">A1#A1#A1#A1#A1#</AdditionalDataNational_047>
+  <AdditionalDataPrivate_048 xmlns="" xsi:type="xs:string">A1#A1#A1#A1#A1#</AdditionalDataPrivate_048>
+  <CurrencyCodeTransaction_049 xmlns="" xsi:type="xs:string">ABC</CurrencyCodeTransaction_049>
+  <CurrencyCodeReconciliation_050 xmlns="" xsi:type="xs:string">ABC</CurrencyCodeReconciliation_050>
+  <CurrencyCodeCardholderBilling_051 xmlns="" xsi:type="xs:string">ABC</CurrencyCodeCardholderBilling_051>
+  <PersonalIdentificationNumberData_052 xmlns="" xsi:type="xs:hexBinary">0f0f0f0f0f0f0f0f</PersonalIdentificationNumberData_052>
+  <SecurityRelatedControlInformation_053 xmlns="" xsi:type="xs:hexBinary">0f0f0f0f0f0f0f0f</SecurityRelatedControlInformation_053>
+  <AmountsAdditional_054 xmlns="" xsi:type="xs:string">12345678</AmountsAdditional_054>
+  <IntegratedCircuitCardSystemRelatedData_055 xmlns="" xsi:type="xs:hexBinary">0f0f0f0f0f0f0f0f</IntegratedCircuitCardSystemRelatedData_055>
+  <OriginalDataElements_056 xmlns="" xsi:type="xs:string">1</OriginalDataElements_056>
+  <AuthorizationLifeCycleCode_057 xmlns="" xsi:type="xs:string">123</AuthorizationLifeCycleCode_057>
+  <AuthorizingAgentInstitutionIdentificationCode_058 xmlns="" xsi:type="xs:string">1</AuthorizingAgentInstitutionIdentificationCode_058>
+  <TransportData_059 xmlns="" xsi:type="xs:string">1</TransportData_059>
+  <ReservedForNationalUse_060 xmlns="" xsi:type="xs:string">1</ReservedForNationalUse_060>
+  <ReservedForNationalUse_061 xmlns="" xsi:type="xs:string">1</ReservedForNationalUse_061>
+  <ReservedForPrivateUse_062 xmlns="" xsi:type="xs:string">1</ReservedForPrivateUse_062>
+  <ReservedForPrivateUse_063 xmlns="" xsi:type="xs:string">1</ReservedForPrivateUse_063>
+  <MessageAuthenticationCodeField_064 xmlns="" xsi:type="xs:hexBinary">0f0f0f0f0f0f0f0f</MessageAuthenticationCodeField_064>
+  <ReservedForISOUse_065 xmlns="" xsi:type="xs:hexBinary">0000000000000000</ReservedForISOUse_065>
+  <AmountsOriginalFees_066 xmlns="" xsi:type="xs:string">1</AmountsOriginalFees_066>
+  <ExtendedPaymentData_067 xmlns="" xsi:type="xs:string">12</ExtendedPaymentData_067>
+  <CountryCodeReceivingInstitution_068 xmlns="" xsi:type="xs:string">123</CountryCodeReceivingInstitution_068>
+  <CountryCodeSettlementInstitution_069 xmlns="" xsi:type="xs:string">123</CountryCodeSettlementInstitution_069>
+  <CountryCodeAuthorizingAgentInstitution_070 xmlns="" xsi:type="xs:string">123</CountryCodeAuthorizingAgentInstitution_070>
+  <MessageNumber_071 xmlns="" xsi:type="xs:string">12345678</MessageNumber_071>
+  <DataRecord_072 xmlns="" xsi:type="xs:string">1</DataRecord_072>
+  <DateAction_073 xmlns="" xsi:type="xs:date">2010-12-31+00:00</DateAction_073>
+  <CreditsNumber_074 xmlns="" xsi:type="xs:string">1234567890</CreditsNumber_074>
+  <CreditsReversalNumber_075 xmlns="" xsi:type="xs:string">1234567890</CreditsReversalNumber_075>
+  <DebitsNumber_076 xmlns="" xsi:type="xs:string">1234567890</DebitsNumber_076>
+  <DebitsReversalNumber_077 xmlns="" xsi:type="xs:string">1234567890</DebitsReversalNumber_077>
+  <TransferNumber_078 xmlns="" xsi:type="xs:string">1234567890</TransferNumber_078>
+  <TransferReversalNumber_079 xmlns="" xsi:type="xs:string">1234567890</TransferReversalNumber_079>
+  <InquiriesNumber_080 xmlns="" xsi:type="xs:string">1234567890</InquiriesNumber_080>
+  <AuthorizationsNumber_081 xmlns="" xsi:type="xs:string">1234567890</AuthorizationsNumber_081>
+  <InquiriesReversalNumber_082 xmlns="" xsi:type="xs:string">1234567890</InquiriesReversalNumber_082>
+  <PaymentsNumber_083 xmlns="" xsi:type="xs:string">1234567890</PaymentsNumber_083>
+  <PaymentsReversalNumber_084 xmlns="" xsi:type="xs:string">1234567890</PaymentsReversalNumber_084>
+  <FeeCollectionsNumber_085 xmlns="" xsi:type="xs:string">1234567890</FeeCollectionsNumber_085>
+  <CreditsAmount_086 xmlns="" xsi:type="xs:string">1234567890123456</CreditsAmount_086>
+  <CreditsReversalAmount_087 xmlns="" xsi:type="xs:string">1234567890123456</CreditsReversalAmount_087>
+  <DebitsAmount_088 xmlns="" xsi:type="xs:string">1234567890123456</DebitsAmount_088>
+  <DebitsReversalAmount_089 xmlns="" xsi:type="xs:string">1234567890123456</DebitsReversalAmount_089>
+  <AuthorizationsReversalNumber_090 xmlns="" xsi:type="xs:string">1234567890</AuthorizationsReversalNumber_090>
+  <CountryCodeTransactionDestinationInstitution_091 xmlns="" xsi:type="xs:string">123</CountryCodeTransactionDestinationInstitution_091>
+  <CountryCodeTransactionOriginatorInstitution_092 xmlns="" xsi:type="xs:string">123</CountryCodeTransactionOriginatorInstitution_092>
+  <TransactionDestinationInstitutionIdentificationCode_093 xmlns="" xsi:type="xs:string">1</TransactionDestinationInstitutionIdentificationCode_093>
+  <TransactionOriginatorInstitutionIdentificationCode_094 xmlns="" xsi:type="xs:string">1</TransactionOriginatorInstitutionIdentificationCode_094>
+  <CardIssuerReferenceData_095 xmlns="" xsi:type="xs:string">1</CardIssuerReferenceData_095>
+  <KeyManagementData_096 xmlns="" xsi:type="xs:hexBinary">0f</KeyManagementData_096>
+  <AmountNetReconciliation_097 xmlns="" xsi:type="xs:string">C1234567890123456</AmountNetReconciliation_097>
+  <Payee_098 xmlns="" xsi:type="xs:string">A1#A1#A1#A1#A1#A1#A1#A1#A</Payee_098>
+  <SettlementInstitutionIdentificationCode_099 xmlns="" xsi:type="xs:string">1</SettlementInstitutionIdentificationCode_099>
+  <ReceivingInstitutionIdentificationCode_100 xmlns="" xsi:type="xs:string">1</ReceivingInstitutionIdentificationCode_100>
+  <FileName_101 xmlns="" xsi:type="xs:string">A1#A1#A1#A1#A1#A1</FileName_101>
+  <AccountIdentification1_102 xmlns="" xsi:type="xs:string">A1#A1#A1#A1#A1#A1</AccountIdentification1_102>
+  <AccountIdentification2_103 xmlns="" xsi:type="xs:string">A1#A1#A1#A1#A1#A1</AccountIdentification2_103>
+  <TransactionDescription_104 xmlns="" xsi:type="xs:string">A1#A1#A1#A1#A1#A1</TransactionDescription_104>
+  <CreditsChargebackAmount_105 xmlns="" xsi:type="xs:string">1234567890123456</CreditsChargebackAmount_105>
+  <DebitsChargebackAmount_106 xmlns="" xsi:type="xs:string">1234567890123456</DebitsChargebackAmount_106>
+  <CreditsChargebackNumber_107 xmlns="" xsi:type="xs:string">1234567890</CreditsChargebackNumber_107>
+  <DebitsChargebackNumber_108 xmlns="" xsi:type="xs:string">1234567890</DebitsChargebackNumber_108>
+  <CreditsFeeAmounts_109 xmlns="" xsi:type="xs:string">A1#</CreditsFeeAmounts_109>
+  <DebitsFeeAmounts_110 xmlns="" xsi:type="xs:string">A1#</DebitsFeeAmounts_110>
+  <ReservedForISOUse_111 xmlns="" xsi:type="xs:string">A1#</ReservedForISOUse_111>
+  <ReservedForISOUse_112 xmlns="" xsi:type="xs:string">A1#</ReservedForISOUse_112>
+  <ReservedForISOUse_113 xmlns="" xsi:type="xs:string">A1#</ReservedForISOUse_113>
+  <ReservedForISOUse_114 xmlns="" xsi:type="xs:string">A1#</ReservedForISOUse_114>
+  <ReservedForISOUse_115 xmlns="" xsi:type="xs:string">A1#</ReservedForISOUse_115>
+  <ReservedForNationalUse_116 xmlns="" xsi:type="xs:string">A1#</ReservedForNationalUse_116>
+  <ReservedForNationalUse117 xmlns="" xsi:type="xs:string">A1#</ReservedForNationalUse117>
+  <ReservedForNationalUse_118 xmlns="" xsi:type="xs:string">A1#</ReservedForNationalUse_118>
+  <ReservedForNationalUse_119 xmlns="" xsi:type="xs:string">A1#</ReservedForNationalUse_119>
+  <ReservedForNationalUse_120 xmlns="" xsi:type="xs:string">A1#</ReservedForNationalUse_120>
+  <ReservedForNationalUse_121 xmlns="" xsi:type="xs:string">A1#</ReservedForNationalUse_121>
+  <ReservedForNationalUse_122 xmlns="" xsi:type="xs:string">A1#</ReservedForNationalUse_122>
+  <ReservedForPrivateUse_123 xmlns="" xsi:type="xs:string">A1#</ReservedForPrivateUse_123>
+  <ReservedForPrivateUse_124 xmlns="" xsi:type="xs:string">A1#</ReservedForPrivateUse_124>
+  <ReservedForPrivateUse_125 xmlns="" xsi:type="xs:string">A1#</ReservedForPrivateUse_125>
+  <ReservedForPrivateUse_126 xmlns="" xsi:type="xs:string">A1#</ReservedForPrivateUse_126>
+  <ReservedForPrivateUse_127 xmlns="" xsi:type="xs:string">A1#</ReservedForPrivateUse_127>
+  <MessageAuthenticationCode_128 xmlns="" xsi:type="xs:hexBinary">0f0f0f0f0f0f0f0f</MessageAuthenticationCode_128>
+</ISO8583_1993>
