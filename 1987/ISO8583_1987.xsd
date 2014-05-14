@@ -297,32 +297,27 @@
                 </xs:element>
                 <xs:element dfdl:length="4" dfdl:lengthUnits="characters" dfdl:occursCount="{/ISO8583_1987/PrimaryBitmap/Bit018}" ibmDfdlExtn:sampleValue="6010" minOccurs="0" name="MerchantType_018">
                     <xs:simpleType>
-                        <xs:restriction base="isotyp:Type_n_string">
-                        </xs:restriction>
+                        <xs:restriction base="isotyp:Type_n_string"/>
                     </xs:simpleType>
                 </xs:element>
                 <xs:element dfdl:length="3" dfdl:lengthUnits="characters" dfdl:occursCount="{/ISO8583_1987/PrimaryBitmap/Bit019}" ibmDfdlExtn:sampleValue="826" minOccurs="0" name="AcquiringInstitutionCountryCode_019">
                     <xs:simpleType>
-                        <xs:restriction base="isotyp:Type_n_string">
-                        </xs:restriction>
+                        <xs:restriction base="isotyp:Type_n_string"/>
                     </xs:simpleType>
                 </xs:element>
                 <xs:element dfdl:length="3" dfdl:lengthUnits="characters" dfdl:occursCount="{/ISO8583_1987/PrimaryBitmap/Bit020}" ibmDfdlExtn:sampleValue="840" minOccurs="0" name="PANExtendedCountryCode_020">
                     <xs:simpleType>
-                        <xs:restriction base="isotyp:Type_n_string">
-                        </xs:restriction>
+                        <xs:restriction base="isotyp:Type_n_string"/>
                     </xs:simpleType>
                 </xs:element>
                 <xs:element dfdl:length="3" dfdl:lengthUnits="characters" dfdl:occursCount="{/ISO8583_1987/PrimaryBitmap/Bit021}" ibmDfdlExtn:sampleValue="826" minOccurs="0" name="ForwardingInstitutionCountryCode_021">
                     <xs:simpleType>
-                        <xs:restriction base="isotyp:Type_n_string">
-                        </xs:restriction>
+                        <xs:restriction base="isotyp:Type_n_string"/>
                     </xs:simpleType>
                 </xs:element>
                 <xs:element dfdl:length="3" dfdl:lengthUnits="characters" dfdl:occursCount="{/ISO8583_1987/PrimaryBitmap/Bit022}" ibmDfdlExtn:sampleValue="011" minOccurs="0" name="PointOfServiceEntryMode_022">
                     <xs:simpleType>
-                        <xs:restriction base="isotyp:Type_n_string">
-                        </xs:restriction>
+                        <xs:restriction base="isotyp:Type_n_string"/>
                     </xs:simpleType>
                 </xs:element>
                 <xs:element dfdl:length="3" dfdl:lengthUnits="characters" dfdl:occursCount="{/ISO8583_1987/PrimaryBitmap/Bit023}" ibmDfdlExtn:sampleValue="011" minOccurs="0" name="CardSequenceNumber_023">

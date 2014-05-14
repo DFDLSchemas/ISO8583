@@ -5,7 +5,7 @@ This GitHub repository holds DFDL schemas that model ISO8583 credit/debit card m
 There are DFDL schemas for the two most popular releases of the standard:
 
     ISO8583-1:1987 
-    ISO8583-1:1993 (coming soon)
+    ISO8583-1:1993 
 
 To download the repository go to http://dfdlschemas.github.com/ISO8583/.
 
@@ -16,7 +16,7 @@ The bitmaps occur near the start of the message, and can either be in 'packed' f
 encoded as 8 bytes of binary data (8 bits per byte), or in 'unpacked' format where each bitmap is encoded 
 as 16 text characters (4 bits per character). 
 
-The DFDL schemas for ISO8583 are in the '1987' and 'Common' folders, and support both 'packed' and 'unpacked' formats.
+The DFDL schemas for ISO8583 are in the '1987', '1993' and 'Common' folders, and support both 'packed' and 'unpacked' formats.
 
 Test data and infosets are included.
 
@@ -25,6 +25,9 @@ onwards and IBM Integration Bus 9.0.0.1 onwards, respectively.
 
 Note that the dfdl:occursCount expressions used in the model for the 'unpacked' format use the fn:contains() function. 
 A more natural approach is to use the dfdl:testBit function but that is not yet supported by IBM DFDL.
+
+The 1987 schemas use absolute paths in the dfdl:occursCount expressions, and do not have a target namespace.
+As a contrast, the 1993 schemas use relative paths and have a target namespace. 
 
 ----------------
 IBM WebSphere Message Broker and IBM Integration Bus

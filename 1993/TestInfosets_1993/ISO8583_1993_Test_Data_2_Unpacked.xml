@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><ISO8583_1993_Unpacked xmlns="http://www.ibm.com/dfdl/ISO8583-1993" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <MTI_Version xmlns="" xsi:type="xs:integer">1</MTI_Version>
+   <MTI_MessageClass xmlns="" xsi:type="xs:integer">3</MTI_MessageClass>
+   <MTI_MessageFunction xmlns="" xsi:type="xs:integer">4</MTI_MessageFunction>
+   <MTI_MessageOrigin xmlns="" xsi:type="xs:integer">4</MTI_MessageOrigin>
+   <PrimaryBitmap xmlns="">
+      <Bits001to004 xsi:type="xs:string">B</Bits001to004>
+      <Bits005to008 xsi:type="xs:string">0</Bits005to008>
+      <Bits009to012 xsi:type="xs:string">3</Bits009to012>
+      <Bits013to016 xsi:type="xs:string">0</Bits013to016>
+      <Bits017to020 xsi:type="xs:string">0</Bits017to020>
+      <Bits021to024 xsi:type="xs:string">1</Bits021to024>
+      <Bits025to028 xsi:type="xs:string">1</Bits025to028>
+      <Bits029to032 xsi:type="xs:string">1</Bits029to032>
+      <Bits033to036 xsi:type="xs:string">8</Bits033to036>
+      <Bits037to040 xsi:type="xs:string">A</Bits037to040>
+      <Bits041to044 xsi:type="xs:string">4</Bits041to044>
+      <Bits045to048 xsi:type="xs:string">0</Bits045to048>
+      <Bits049to052 xsi:type="xs:string">8</Bits049to052>
+      <Bits053to056 xsi:type="xs:string">0</Bits053to056>
+      <Bits057to060 xsi:type="xs:string">0</Bits057to060>
+      <Bits061to064 xsi:type="xs:string">0</Bits061to064>
+   </PrimaryBitmap>
+   <SecondaryBitmap xmlns="">
+      <Bits065to068 xsi:type="xs:string">0</Bits065to068>
+      <Bits069to072 xsi:type="xs:string">2</Bits069to072>
+      <Bits073to076 xsi:type="xs:string">0</Bits073to076>
+      <Bits077to080 xsi:type="xs:string">0</Bits077to080>
+      <Bits081to084 xsi:type="xs:string">0</Bits081to084>
+      <Bits085to088 xsi:type="xs:string">0</Bits085to088>
+      <Bits089to092 xsi:type="xs:string">0</Bits089to092>
+      <Bits093to096 xsi:type="xs:string">0</Bits093to096>
+      <Bits097to100 xsi:type="xs:string">0</Bits097to100>
+      <Bits101to104 xsi:type="xs:string">8</Bits101to104>
+      <Bits105to108 xsi:type="xs:string">0</Bits105to108>
+      <Bits109to112 xsi:type="xs:string">0</Bits109to112>
+      <Bits113to116 xsi:type="xs:string">0</Bits113to116>
+      <Bits117to120 xsi:type="xs:string">0</Bits117to120>
+      <Bits121to124 xsi:type="xs:string">0</Bits121to124>
+      <Bits125to128 xsi:type="xs:string">0</Bits125to128>
+   </SecondaryBitmap>
+   <ProcessingCode_003 xmlns="" xsi:type="xs:string">200000</ProcessingCode_003>
+   <AmountTransaction_004 xmlns="" xsi:type="xs:decimal">122312</AmountTransaction_004>
+   <SystemsTraceAuditNumber_011 xmlns="" xsi:type="xs:string">125689</SystemsTraceAuditNumber_011>
+   <DateTimeLocalTransaction_012 xmlns="" xsi:type="xs:dateTime">2013-04-13T05:32:51.000000+00:00</DateTimeLocalTransaction_012>
+   <FunctionCode_024 xmlns="" xsi:type="xs:string">302</FunctionCode_024>
+   <DateReconciliation_028 xmlns="" xsi:type="xs:date">2013-04-13+00:00</DateReconciliation_028>
+   <AcquiringInstitutionIdentificationCode_032 xmlns="" xsi:type="xs:string">12345678901</AcquiringInstitutionIdentificationCode_032>
+   <ForwardingInstitutionIdentificationCode_033 xmlns="" xsi:type="xs:string">12345678902</ForwardingInstitutionIdentificationCode_033>
+   <RetrievalReferenceNumber_037 xmlns="" xsi:type="xs:string">XXX 00009999</RetrievalReferenceNumber_037>
+   <ActionCode_039 xmlns="" xsi:type="xs:string">300</ActionCode_039>
+   <CardAcceptorIdentificationCode_042 xmlns="" xsi:type="xs:string">000000002000   </CardAcceptorIdentificationCode_042>
+   <CurrencyCodeTransaction_049 xmlns="" xsi:type="xs:string">EUR</CurrencyCodeTransaction_049>
+   <MessageNumber_071 xmlns="" xsi:type="xs:string">00000002</MessageNumber_071>
+   <FileName_101 xmlns="" xsi:type="xs:string">ACQ-RAW-DATA</FileName_101>
+</ISO8583_1993_Unpacked>

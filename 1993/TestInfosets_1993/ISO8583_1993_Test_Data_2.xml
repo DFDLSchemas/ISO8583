@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><ISO8583_1993 xmlns="http://www.ibm.com/dfdl/ISO8583-1993" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <MTI_Version xmlns="" xsi:type="xs:integer">1</MTI_Version>
+   <MTI_MessageClass xmlns="" xsi:type="xs:integer">3</MTI_MessageClass>
+   <MTI_MessageFunction xmlns="" xsi:type="xs:integer">4</MTI_MessageFunction>
+   <MTI_MessageOrigin xmlns="" xsi:type="xs:integer">4</MTI_MessageOrigin>
+   <PrimaryBitmap xmlns="">
+      <Bit001 xsi:type="xs:unsignedInt">1</Bit001>
+      <Bit002 xsi:type="xs:unsignedInt">0</Bit002>
+      <Bit003 xsi:type="xs:unsignedInt">1</Bit003>
+      <Bit004 xsi:type="xs:unsignedInt">1</Bit004>
+      <Bit005 xsi:type="xs:unsignedInt">0</Bit005>
+      <Bit006 xsi:type="xs:unsignedInt">0</Bit006>
+      <Bit007 xsi:type="xs:unsignedInt">0</Bit007>
+      <Bit008 xsi:type="xs:unsignedInt">0</Bit008>
+      <Bit009 xsi:type="xs:unsignedInt">0</Bit009>
+      <Bit010 xsi:type="xs:unsignedInt">0</Bit010>
+      <Bit011 xsi:type="xs:unsignedInt">1</Bit011>
+      <Bit012 xsi:type="xs:unsignedInt">1</Bit012>
+      <Bit013 xsi:type="xs:unsignedInt">0</Bit013>
+      <Bit014 xsi:type="xs:unsignedInt">0</Bit014>
+      <Bit015 xsi:type="xs:unsignedInt">0</Bit015>
+      <Bit016 xsi:type="xs:unsignedInt">0</Bit016>
+      <Bit017 xsi:type="xs:unsignedInt">0</Bit017>
+      <Bit018 xsi:type="xs:unsignedInt">0</Bit018>
+      <Bit019 xsi:type="xs:unsignedInt">0</Bit019>
+      <Bit020 xsi:type="xs:unsignedInt">0</Bit020>
+      <Bit021 xsi:type="xs:unsignedInt">0</Bit021>
+      <Bit022 xsi:type="xs:unsignedInt">0</Bit022>
+      <Bit023 xsi:type="xs:unsignedInt">0</Bit023>
+      <Bit024 xsi:type="xs:unsignedInt">1</Bit024>
+      <Bit025 xsi:type="xs:unsignedInt">0</Bit025>
+      <Bit026 xsi:type="xs:unsignedInt">0</Bit026>
+      <Bit027 xsi:type="xs:unsignedInt">0</Bit027>
+      <Bit028 xsi:type="xs:unsignedInt">1</Bit028>
+      <Bit029 xsi:type="xs:unsignedInt">0</Bit029>
+      <Bit030 xsi:type="xs:unsignedInt">0</Bit030>
+      <Bit031 xsi:type="xs:unsignedInt">0</Bit031>
+      <Bit032 xsi:type="xs:unsignedInt">1</Bit032>
+      <Bit033 xsi:type="xs:unsignedInt">1</Bit033>
+      <Bit034 xsi:type="xs:unsignedInt">0</Bit034>
+      <Bit035 xsi:type="xs:unsignedInt">0</Bit035>
+      <Bit036 xsi:type="xs:unsignedInt">0</Bit036>
+      <Bit037 xsi:type="xs:unsignedInt">1</Bit037>
+      <Bit038 xsi:type="xs:unsignedInt">0</Bit038>
+      <Bit039 xsi:type="xs:unsignedInt">1</Bit039>
+      <Bit040 xsi:type="xs:unsignedInt">0</Bit040>
+      <Bit041 xsi:type="xs:unsignedInt">0</Bit041>
+      <Bit042 xsi:type="xs:unsignedInt">1</Bit042>
+      <Bit043 xsi:type="xs:unsignedInt">0</Bit043>
+      <Bit044 xsi:type="xs:unsignedInt">0</Bit044>
+      <Bit045 xsi:type="xs:unsignedInt">0</Bit045>
+      <Bit046 xsi:type="xs:unsignedInt">0</Bit046>
+      <Bit047 xsi:type="xs:unsignedInt">0</Bit047>
+      <Bit048 xsi:type="xs:unsignedInt">0</Bit048>
+      <Bit049 xsi:type="xs:unsignedInt">1</Bit049>
+      <Bit050 xsi:type="xs:unsignedInt">0</Bit050>
+      <Bit051 xsi:type="xs:unsignedInt">0</Bit051>
+      <Bit052 xsi:type="xs:unsignedInt">0</Bit052>
+      <Bit053 xsi:type="xs:unsignedInt">0</Bit053>
+      <Bit054 xsi:type="xs:unsignedInt">0</Bit054>
+      <Bit055 xsi:type="xs:unsignedInt">0</Bit055>
+      <Bit056 xsi:type="xs:unsignedInt">0</Bit056>
+      <Bit057 xsi:type="xs:unsignedInt">0</Bit057>
+      <Bit058 xsi:type="xs:unsignedInt">0</Bit058>
+      <Bit059 xsi:type="xs:unsignedInt">0</Bit059>
+      <Bit060 xsi:type="xs:unsignedInt">0</Bit060>
+      <Bit061 xsi:type="xs:unsignedInt">0</Bit061>
+      <Bit062 xsi:type="xs:unsignedInt">0</Bit062>
+      <Bit063 xsi:type="xs:unsignedInt">0</Bit063>
+      <Bit064 xsi:type="xs:unsignedInt">0</Bit064>
+   </PrimaryBitmap>
+   <SecondaryBitmap xmlns="">
+      <Bit065 xsi:type="xs:unsignedInt">0</Bit065>
+      <Bit066 xsi:type="xs:unsignedInt">0</Bit066>
+      <Bit067 xsi:type="xs:unsignedInt">0</Bit067>
+      <Bit068 xsi:type="xs:unsignedInt">0</Bit068>
+      <Bit069 xsi:type="xs:unsignedInt">0</Bit069>
+      <Bit070 xsi:type="xs:unsignedInt">0</Bit070>
+      <Bit071 xsi:type="xs:unsignedInt">1</Bit071>
+      <Bit072 xsi:type="xs:unsignedInt">0</Bit072>
+      <Bit073 xsi:type="xs:unsignedInt">0</Bit073>
+      <Bit074 xsi:type="xs:unsignedInt">0</Bit074>
+      <Bit075 xsi:type="xs:unsignedInt">0</Bit075>
+      <Bit076 xsi:type="xs:unsignedInt">0</Bit076>
+      <Bit077 xsi:type="xs:unsignedInt">0</Bit077>
+      <Bit078 xsi:type="xs:unsignedInt">0</Bit078>
+      <Bit079 xsi:type="xs:unsignedInt">0</Bit079>
+      <Bit080 xsi:type="xs:unsignedInt">0</Bit080>
+      <Bit081 xsi:type="xs:unsignedInt">0</Bit081>
+      <Bit082 xsi:type="xs:unsignedInt">0</Bit082>
+      <Bit083 xsi:type="xs:unsignedInt">0</Bit083>
+      <Bit084 xsi:type="xs:unsignedInt">0</Bit084>
+      <Bit085 xsi:type="xs:unsignedInt">0</Bit085>
+      <Bit086 xsi:type="xs:unsignedInt">0</Bit086>
+      <Bit087 xsi:type="xs:unsignedInt">0</Bit087>
+      <Bit088 xsi:type="xs:unsignedInt">0</Bit088>
+      <Bit089 xsi:type="xs:unsignedInt">0</Bit089>
+      <Bit090 xsi:type="xs:unsignedInt">0</Bit090>
+      <Bit091 xsi:type="xs:unsignedInt">0</Bit091>
+      <Bit092 xsi:type="xs:unsignedInt">0</Bit092>
+      <Bit093 xsi:type="xs:unsignedInt">0</Bit093>
+      <Bit094 xsi:type="xs:unsignedInt">0</Bit094>
+      <Bit095 xsi:type="xs:unsignedInt">0</Bit095>
+      <Bit096 xsi:type="xs:unsignedInt">0</Bit096>
+      <Bit097 xsi:type="xs:unsignedInt">0</Bit097>
+      <Bit098 xsi:type="xs:unsignedInt">0</Bit098>
+      <Bit099 xsi:type="xs:unsignedInt">0</Bit099>
+      <Bit100 xsi:type="xs:unsignedInt">0</Bit100>
+      <Bit101 xsi:type="xs:unsignedInt">1</Bit101>
+      <Bit102 xsi:type="xs:unsignedInt">0</Bit102>
+      <Bit103 xsi:type="xs:unsignedInt">0</Bit103>
+      <Bit104 xsi:type="xs:unsignedInt">0</Bit104>
+      <Bit105 xsi:type="xs:unsignedInt">0</Bit105>
+      <Bit106 xsi:type="xs:unsignedInt">0</Bit106>
+      <Bit107 xsi:type="xs:unsignedInt">0</Bit107>
+      <Bit108 xsi:type="xs:unsignedInt">0</Bit108>
+      <Bit109 xsi:type="xs:unsignedInt">0</Bit109>
+      <Bit110 xsi:type="xs:unsignedInt">0</Bit110>
+      <Bit111 xsi:type="xs:unsignedInt">0</Bit111>
+      <Bit112 xsi:type="xs:unsignedInt">0</Bit112>
+      <Bit113 xsi:type="xs:unsignedInt">0</Bit113>
+      <Bit114 xsi:type="xs:unsignedInt">0</Bit114>
+      <Bit115 xsi:type="xs:unsignedInt">0</Bit115>
+      <Bit116 xsi:type="xs:unsignedInt">0</Bit116>
+      <Bit117 xsi:type="xs:unsignedInt">0</Bit117>
+      <Bit118 xsi:type="xs:unsignedInt">0</Bit118>
+      <Bit119 xsi:type="xs:unsignedInt">0</Bit119>
+      <Bit120 xsi:type="xs:unsignedInt">0</Bit120>
+      <Bit121 xsi:type="xs:unsignedInt">0</Bit121>
+      <Bit122 xsi:type="xs:unsignedInt">0</Bit122>
+      <Bit123 xsi:type="xs:unsignedInt">0</Bit123>
+      <Bit124 xsi:type="xs:unsignedInt">0</Bit124>
+      <Bit125 xsi:type="xs:unsignedInt">0</Bit125>
+      <Bit126 xsi:type="xs:unsignedInt">0</Bit126>
+      <Bit127 xsi:type="xs:unsignedInt">0</Bit127>
+      <Bit128 xsi:type="xs:unsignedInt">0</Bit128>
+   </SecondaryBitmap>
+   <ProcessingCode_003 xmlns="" xsi:type="xs:string">200000</ProcessingCode_003>
+   <AmountTransaction_004 xmlns="" xsi:type="xs:decimal">122312</AmountTransaction_004>
+   <SystemsTraceAuditNumber_011 xmlns="" xsi:type="xs:string">125689</SystemsTraceAuditNumber_011>
+   <DateTimeLocalTransaction_012 xmlns="" xsi:type="xs:dateTime">2013-04-13T05:32:51.000000+00:00</DateTimeLocalTransaction_012>
+   <FunctionCode_024 xmlns="" xsi:type="xs:string">302</FunctionCode_024>
+   <DateReconciliation_028 xmlns="" xsi:type="xs:date">2013-04-13+00:00</DateReconciliation_028>
+   <AcquiringInstitutionIdentificationCode_032 xmlns="" xsi:type="xs:string">12345678901</AcquiringInstitutionIdentificationCode_032>
+   <ForwardingInstitutionIdentificationCode_033 xmlns="" xsi:type="xs:string">12345678902</ForwardingInstitutionIdentificationCode_033>
+   <RetrievalReferenceNumber_037 xmlns="" xsi:type="xs:string">XXX 00009999</RetrievalReferenceNumber_037>
+   <ActionCode_039 xmlns="" xsi:type="xs:string">300</ActionCode_039>
+   <CardAcceptorIdentificationCode_042 xmlns="" xsi:type="xs:string">000000002000   </CardAcceptorIdentificationCode_042>
+   <CurrencyCodeTransaction_049 xmlns="" xsi:type="xs:string">EUR</CurrencyCodeTransaction_049>
+   <MessageNumber_071 xmlns="" xsi:type="xs:string">00000002</MessageNumber_071>
+   <FileName_101 xmlns="" xsi:type="xs:string">ACQ-RAW-DATA</FileName_101>
+</ISO8583_1993>
