@@ -15,10 +15,10 @@
 	 *
 	 * © Copyright ISO, 2003 
 	 *
-	 * © Copyright International Business Machines Corporation, 2014. 
+	 * © Copyright International Business Machines Corporation, 2015. 
 	 *
 	 ************************************************************************* 
-	 * Version 1.0 ISO8583_1993.xsd
+	 * Version 1.1 ISO8583_1993.xsd
 	 * 
 	 * This DFDL schema provides a DFDL model for ISO8583 1993 binary data 
 	 * where each bitmap in the message is encoded as 8 bytes of binary data
@@ -239,9 +239,9 @@
                         <xs:restriction base="isotyp:Type_n_decimal"/>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="10" dfdl:lengthUnits="characters" dfdl:occursCount="{../PrimaryBitmap/Bit007}" ibmDfdlExtn:sampleValue="2001-12-31T23:59:59" minOccurs="0" name="DateTimeTransmission_007">
+                <xs:element dfdl:length="10" dfdl:lengthUnits="characters" dfdl:occursCount="{../PrimaryBitmap/Bit007}" ibmDfdlExtn:sampleValue="1231235959" minOccurs="0" name="DateTimeTransmission_007">
                     <xs:simpleType>
-                        <xs:restriction base="isotyp:Type_n_dateTime"/>
+                        <xs:restriction base="isotyp:Type_n_dateTimeNoYear"/>
                     </xs:simpleType>
                 </xs:element>
                 <xs:element dfdl:length="8" dfdl:lengthUnits="characters" dfdl:occursCount="{../PrimaryBitmap/Bit008}" dfdl:textNumberPattern="+00000000" ibmDfdlExtn:sampleValue="12345678" minOccurs="0" name="AmountCardHolderBillingFee_008">
@@ -269,22 +269,22 @@
                 </xs:element>
                 <xs:element dfdl:length="12" dfdl:lengthUnits="characters" dfdl:occursCount="{../PrimaryBitmap/Bit012}" ibmDfdlExtn:sampleValue="1999-12-31T12:00:00" minOccurs="0" name="DateTimeLocalTransaction_012">
                     <xs:simpleType>
-                        <xs:restriction base="isotyp:Type_n_yearDateTime"/>
+                        <xs:restriction base="isotyp:Type_n_dateTime"/>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="4" dfdl:lengthUnits="characters" dfdl:occursCount="{../PrimaryBitmap/Bit013}" ibmDfdlExtn:sampleValue="1999-12-01" minOccurs="0" name="DateEffective_013">
+                <xs:element dfdl:length="4" dfdl:lengthUnits="characters" dfdl:occursCount="{../PrimaryBitmap/Bit013}" ibmDfdlExtn:sampleValue="9912" minOccurs="0" name="DateEffective_013">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_yearMonth"/>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="4" dfdl:lengthUnits="characters" dfdl:occursCount="{../PrimaryBitmap/Bit014}" ibmDfdlExtn:sampleValue="1999-12-01" minOccurs="0" name="DateExpiration_014">
+                <xs:element dfdl:length="4" dfdl:lengthUnits="characters" dfdl:occursCount="{../PrimaryBitmap/Bit014}" ibmDfdlExtn:sampleValue="9912" minOccurs="0" name="DateExpiration_014">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_yearMonth"/>
                     </xs:simpleType>
                 </xs:element>
                 <xs:element dfdl:length="6" dfdl:lengthUnits="characters" dfdl:occursCount="{../PrimaryBitmap/Bit015}" ibmDfdlExtn:sampleValue="1999-12-31" minOccurs="0" name="DateSettlement_015">
                     <xs:simpleType>
-                        <xs:restriction base="isotyp:Type_n_yearMonthDay"/>
+                        <xs:restriction base="isotyp:Type_n_date"/>
                     </xs:simpleType>
                 </xs:element>
                 <xs:element dfdl:length="4" dfdl:lengthUnits="characters" dfdl:occursCount="{../PrimaryBitmap/Bit016}" ibmDfdlExtn:sampleValue="1231" minOccurs="0" name="DateConversion_016">
@@ -354,7 +354,7 @@
                 </xs:element>
                 <xs:element dfdl:length="6" dfdl:lengthUnits="characters" dfdl:occursCount="{../PrimaryBitmap/Bit028}" ibmDfdlExtn:sampleValue="1999-12-31" minOccurs="0" name="DateReconciliation_028">
                     <xs:simpleType>
-                        <xs:restriction base="isotyp:Type_n_yearMonthDay">
+                        <xs:restriction base="isotyp:Type_n_date">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
@@ -662,9 +662,9 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="6" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then ../SecondaryBitmap/Bit073 else 0)}" ibmDfdlExtn:sampleValue="991231" minOccurs="0" name="DateAction_073">
+                <xs:element dfdl:length="6" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then ../SecondaryBitmap/Bit073 else 0)}" ibmDfdlExtn:sampleValue="1999-12-31" minOccurs="0" name="DateAction_073">
                     <xs:simpleType>
-                        <xs:restriction base="isotyp:Type_n_yearMonthDay"/>
+                        <xs:restriction base="isotyp:Type_n_date"/>
                     </xs:simpleType>
                 </xs:element>
                 <xs:element dfdl:length="10" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then ../SecondaryBitmap/Bit074 else 0)}" dfdl:textNumberPattern="#0.###" ibmDfdlExtn:sampleValue="1234567890" minOccurs="0" name="CreditsNumber_074">

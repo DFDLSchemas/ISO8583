@@ -141,17 +141,17 @@
   <AmountTransaction_004 xmlns="" xsi:type="xs:decimal">123456789012</AmountTransaction_004>
   <AmountReconciliation_005 xmlns="" xsi:type="xs:decimal">123456789012</AmountReconciliation_005>
   <AmountCardHolderBilling_006 xmlns="" xsi:type="xs:decimal">123456789012</AmountCardHolderBilling_006>
-  <DateTimeTransmission_007 xmlns="" xsi:type="xs:dateTime">1970-12-31T23:59:59.000000+00:00</DateTimeTransmission_007>
+  <DateTimeTransmission_007 xmlns="" xsi:type="xs:string">1231235959</DateTimeTransmission_007>
   <AmountCardHolderBillingFee_008 xmlns="" xsi:type="xs:string">12345678</AmountCardHolderBillingFee_008>
   <ConversionRateReconciliation_009 xmlns="" xsi:type="xs:string">12345678</ConversionRateReconciliation_009>
   <ConversionRateCardholderBilling_010 xmlns="" xsi:type="xs:string">12345678</ConversionRateCardholderBilling_010>
   <SystemsTraceAuditNumber_011 xmlns="" xsi:type="xs:string">123456</SystemsTraceAuditNumber_011>
   <DateTimeLocalTransaction_012 xmlns="" xsi:type="xs:dateTime">1999-12-31T12:00:00.000000+00:00</DateTimeLocalTransaction_012>
-  <DateEffective_013 xmlns="" xsi:type="xs:date">1999-12-01+00:00</DateEffective_013>
-  <DateExpiration_014 xmlns="" xsi:type="xs:date">1999-12-01+00:00</DateExpiration_014>
+  <DateEffective_013 xmlns="" xsi:type="xs:string">9912</DateEffective_013>
+  <DateExpiration_014 xmlns="" xsi:type="xs:string">9912</DateExpiration_014>
   <DateSettlement_015 xmlns="" xsi:type="xs:date">1999-12-31+00:00</DateSettlement_015>
-  <DateConversion_016 xmlns="" xsi:type="xs:date">1970-12-31+00:00</DateConversion_016>
-  <DateCapture_017 xmlns="" xsi:type="xs:date">1970-12-31+00:00</DateCapture_017>
+  <DateConversion_016 xmlns="" xsi:type="xs:string">1231</DateConversion_016>
+  <DateCapture_017 xmlns="" xsi:type="xs:string">1231</DateCapture_017>
   <MerchantType_018 xmlns="" xsi:type="xs:string">1234</MerchantType_018>
   <CountryCodeAcquiringInstitution_019 xmlns="" xsi:type="xs:string">123</CountryCodeAcquiringInstitution_019>
   <CountryCodePrimaryAccountNumber_020 xmlns="" xsi:type="xs:string">123</CountryCodePrimaryAccountNumber_020>
