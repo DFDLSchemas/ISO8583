@@ -29,6 +29,8 @@ A more natural approach is to use the dfdl:testBit function but that is not yet 
 The 1987 schemas use absolute paths in the dfdl:occursCount expressions, and do not have a target namespace.
 As a contrast, the 1993 schemas use relative paths and have a target namespace. 
 
+Updated June 2015 to correct calendar elements. Only elemenmts that are full dates are modelled as xs:date, and only elements that are full timestamps are modelled as xs:dateTime. Otherwise xs:string is used.
+
 ----------------
 IBM WebSphere Message Broker and IBM Integration Bus
 
