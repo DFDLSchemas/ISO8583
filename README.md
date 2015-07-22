@@ -16,7 +16,7 @@ The bitmaps occur near the start of the message, and can either be in 'packed' f
 encoded as 8 bytes of binary data (8 bits per byte), or in 'unpacked' format where each bitmap is encoded 
 as 16 text characters (4 bits per character). 
 
-The DFDL schemas for ISO8583 are in the '1987', '1993' and 'Common' folders, and support both 'packed' and 'unpacked' formats.
+The DFDL schemas for ISO8583 are in the '1987', '1993' and 'Common' folders, and support both 'packed' and 'unpacked' bitmap formats.
 
 Test data and infosets are included.
 
@@ -24,12 +24,16 @@ The DFDL schemas are compatible with IBM DFDL 1.0 and 1.1 releases, as shipped i
 onwards and IBM Integration Bus 9.0.0.1 onwards, respectively.
 
 Note that the dfdl:occursCount expressions used in the model for the 'unpacked' format use the fn:contains() function. 
-A more natural approach is to use the dfdl:testBit function but that is not yet supported by IBM DFDL.
+A more natural approach is to use the dfdl:testBit() function but that is not yet supported by IBM DFDL.
 
 The 1987 schemas use absolute paths in the dfdl:occursCount expressions, and do not have a target namespace.
 As a contrast, the 1993 schemas use relative paths and have a target namespace. 
 
-Updated June 2015 to correct calendar elements. Only elemenmts that are full dates are modelled as xs:date, and only elements that are full timestamps are modelled as xs:dateTime. Otherwise xs:string is used.
+Updated June 2015 to correct calendar elements. Only elements that are full dates are modelled as xs:date, and only elements that are full timestamps are modelled as xs:dateTime. Otherwise xs:string is used.
+
+If the ISO8583 message is received over TCP/IP then it is usual for a 2 or 4 byte header to be appended to the start of the data. This is best modeled by changing the dfdl:lengthKind of the ISO8583 message element from 'implicit' to 'prefixed', and creating a suitable simple type for the dfdl:prefixLengthType property.
+
+If modeling ISO8583 messages as used in the People's Republic of China, change dfdl:encoding to 'GB2312'.
 
 ----------------
 IBM WebSphere Message Broker and IBM Integration Bus
