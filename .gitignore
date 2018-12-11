@@ -1,0 +1,9 @@
+bin/
+target/
+.cache*
+.cache
+*~
+hs*.log
+lib_managed/
+src_managed/
+resource_managed/
