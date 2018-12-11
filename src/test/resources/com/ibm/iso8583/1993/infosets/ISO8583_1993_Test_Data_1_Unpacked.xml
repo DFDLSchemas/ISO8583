@@ -90,10 +90,10 @@
   <CurrencyCodeTransaction_049 xmlns="" xsi:type="xs:string">ABC</CurrencyCodeTransaction_049>
   <CurrencyCodeReconciliation_050 xmlns="" xsi:type="xs:string">ABC</CurrencyCodeReconciliation_050>
   <CurrencyCodeCardholderBilling_051 xmlns="" xsi:type="xs:string">ABC</CurrencyCodeCardholderBilling_051>
-  <PersonalIdentificationNumberData_052 xmlns="" xsi:type="xs:hexBinary">0f0f0f0f0f0f0f0f</PersonalIdentificationNumberData_052>
-  <SecurityRelatedControlInformation_053 xmlns="" xsi:type="xs:hexBinary">0f0f0f0f0f0f0f0f</SecurityRelatedControlInformation_053>
+  <PersonalIdentificationNumberData_052 xmlns="" xsi:type="xs:hexBinary">0F0F0F0F0F0F0F0F</PersonalIdentificationNumberData_052>
+  <SecurityRelatedControlInformation_053 xmlns="" xsi:type="xs:hexBinary">0F0F0F0F0F0F0F0F</SecurityRelatedControlInformation_053>
   <AmountsAdditional_054 xmlns="" xsi:type="xs:string">12345678</AmountsAdditional_054>
-  <IntegratedCircuitCardSystemRelatedData_055 xmlns="" xsi:type="xs:hexBinary">0f0f0f0f0f0f0f0f</IntegratedCircuitCardSystemRelatedData_055>
+  <IntegratedCircuitCardSystemRelatedData_055 xmlns="" xsi:type="xs:hexBinary">0F0F0F0F0F0F0F0F</IntegratedCircuitCardSystemRelatedData_055>
   <OriginalDataElements_056 xmlns="" xsi:type="xs:string">1</OriginalDataElements_056>
   <AuthorizationLifeCycleCode_057 xmlns="" xsi:type="xs:string">123</AuthorizationLifeCycleCode_057>
   <AuthorizingAgentInstitutionIdentificationCode_058 xmlns="" xsi:type="xs:string">1</AuthorizingAgentInstitutionIdentificationCode_058>
@@ -102,7 +102,7 @@
   <ReservedForNationalUse_061 xmlns="" xsi:type="xs:string">1</ReservedForNationalUse_061>
   <ReservedForPrivateUse_062 xmlns="" xsi:type="xs:string">1</ReservedForPrivateUse_062>
   <ReservedForPrivateUse_063 xmlns="" xsi:type="xs:string">1</ReservedForPrivateUse_063>
-  <MessageAuthenticationCodeField_064 xmlns="" xsi:type="xs:hexBinary">0f0f0f0f0f0f0f0f</MessageAuthenticationCodeField_064>
+  <MessageAuthenticationCodeField_064 xmlns="" xsi:type="xs:hexBinary">0F0F0F0F0F0F0F0F</MessageAuthenticationCodeField_064>
   <ReservedForISOUse_065 xmlns="" xsi:type="xs:hexBinary">0000000000000000</ReservedForISOUse_065>
   <AmountsOriginalFees_066 xmlns="" xsi:type="xs:string">1</AmountsOriginalFees_066>
   <ExtendedPaymentData_067 xmlns="" xsi:type="xs:string">12</ExtendedPaymentData_067>
@@ -134,7 +134,7 @@
   <TransactionDestinationInstitutionIdentificationCode_093 xmlns="" xsi:type="xs:string">1</TransactionDestinationInstitutionIdentificationCode_093>
   <TransactionOriginatorInstitutionIdentificationCode_094 xmlns="" xsi:type="xs:string">1</TransactionOriginatorInstitutionIdentificationCode_094>
   <CardIssuerReferenceData_095 xmlns="" xsi:type="xs:string">1</CardIssuerReferenceData_095>
-  <KeyManagementData_096 xmlns="" xsi:type="xs:hexBinary">0f</KeyManagementData_096>
+  <KeyManagementData_096 xmlns="" xsi:type="xs:hexBinary">0F</KeyManagementData_096>
   <AmountNetReconciliation_097 xmlns="" xsi:type="xs:string">C1234567890123456</AmountNetReconciliation_097>
   <Payee_098 xmlns="" xsi:type="xs:string">A1#A1#A1#A1#A1#A1#A1#A1#A</Payee_098>
   <SettlementInstitutionIdentificationCode_099 xmlns="" xsi:type="xs:string">1</SettlementInstitutionIdentificationCode_099>
@@ -166,5 +166,5 @@
   <ReservedForPrivateUse_125 xmlns="" xsi:type="xs:string">A1#</ReservedForPrivateUse_125>
   <ReservedForPrivateUse_126 xmlns="" xsi:type="xs:string">A1#</ReservedForPrivateUse_126>
   <ReservedForPrivateUse_127 xmlns="" xsi:type="xs:string">A1#</ReservedForPrivateUse_127>
-  <MessageAuthenticationCode_128 xmlns="" xsi:type="xs:hexBinary">0f0f0f0f0f0f0f0f</MessageAuthenticationCode_128>
+  <MessageAuthenticationCode_128 xmlns="" xsi:type="xs:hexBinary">0F0F0F0F0F0F0F0F</MessageAuthenticationCode_128>
 </ISO8583_1993_Unpacked>

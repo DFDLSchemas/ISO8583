@@ -102,7 +102,7 @@
   <ReservedPrivate_061 xsi:type="xs:string">1</ReservedPrivate_061>
   <ReservedPrivate_062 xsi:type="xs:string">1</ReservedPrivate_062>
   <ReservedPrivate_063 xsi:type="xs:string">1</ReservedPrivate_063>
-  <MessageAuthenticationCode_064 xsi:type="xs:hexBinary">0f0f0f0f0f0f0f0f</MessageAuthenticationCode_064>
+  <MessageAuthenticationCode_064 xsi:type="xs:hexBinary">0F0F0F0F0F0F0F0F</MessageAuthenticationCode_064>
   <TertiaryBitmap_065 xsi:type="xs:hexBinary">0000000000000000</TertiaryBitmap_065>
   <SettlementCode_066 xsi:type="xs:string">1</SettlementCode_066>
   <ExtendedPaymentCode_067 xsi:type="xs:string">12</ExtendedPaymentCode_067>
@@ -134,7 +134,7 @@
   <ResponseIndicator_093 xsi:type="xs:string">a1a1a</ResponseIndicator_093>
   <ServiceIndicator_094 xsi:type="xs:string">a1a1a1a</ServiceIndicator_094>
   <ReplacementAmounts_095 xsi:type="xs:string">a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1</ReplacementAmounts_095>
-  <MessageSecurityCode_096 xsi:type="xs:hexBinary">0f0f0f0f0f0f0f0f</MessageSecurityCode_096>
+  <MessageSecurityCode_096 xsi:type="xs:hexBinary">0F0F0F0F0F0F0F0F</MessageSecurityCode_096>
   <AmountNetSettlement_097 xsi:type="xs:string">1111111111111111</AmountNetSettlement_097>
   <Payee_098 xsi:type="xs:string">a1#a1#a1#a1#a1#a1#a1#a1#a</Payee_098>
   <SettlementInstitutionIdentificationCode_099 xsi:type="xs:string">11111111111</SettlementInstitutionIdentificationCode_099>
@@ -166,5 +166,5 @@
   <ReservedPrivate_125 xsi:type="xs:string">a1#a1#a1#</ReservedPrivate_125>
   <ReservedPrivate_126 xsi:type="xs:string">a1#a1#a1#</ReservedPrivate_126>
   <ReservedPrivate_127 xsi:type="xs:string">a1#a1#a1#</ReservedPrivate_127>
-  <MessageAuthenticationCode_128 xsi:type="xs:hexBinary">0f0f0f0f0f0f0f0f</MessageAuthenticationCode_128>
+  <MessageAuthenticationCode_128 xsi:type="xs:hexBinary">0F0F0F0F0F0F0F0F</MessageAuthenticationCode_128>
 </ISO8583_1987_Unpacked>
