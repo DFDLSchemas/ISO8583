@@ -610,208 +610,208 @@
                         <xs:restriction base="isotyp:Type_b_hexBinary"/>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="8" dfdl:lengthUnits="bytes" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit065 else 0)}" ibmDfdlExtn:sampleValue="0000000000000000" minOccurs="0" name="TertiaryBitmap_065">
+                <xs:element dfdl:length="8" dfdl:lengthUnits="bytes" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit065 else 0)}" ibmDfdlExtn:sampleValue="0000000000000000" minOccurs="0" name="TertiaryBitmap_065">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_b_hexBinary"/>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="1" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit066 else 0)}" ibmDfdlExtn:sampleValue="1" minOccurs="0" name="SettlementCode_066">
+                <xs:element dfdl:length="1" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit066 else 0)}" ibmDfdlExtn:sampleValue="1" minOccurs="0" name="SettlementCode_066">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="2" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit067 else 0)}" ibmDfdlExtn:sampleValue="12" minOccurs="0" name="ExtendedPaymentCode_067">
+                <xs:element dfdl:length="2" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit067 else 0)}" ibmDfdlExtn:sampleValue="12" minOccurs="0" name="ExtendedPaymentCode_067">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="3" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit068 else 0)}" ibmDfdlExtn:sampleValue="826" minOccurs="0" name="ReceivingInstitutionCountryCode_068">
+                <xs:element dfdl:length="3" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit068 else 0)}" ibmDfdlExtn:sampleValue="826" minOccurs="0" name="ReceivingInstitutionCountryCode_068">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="3" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit069 else 0)}" ibmDfdlExtn:sampleValue="826" minOccurs="0" name="SettlementInstitutionCountryCode_069">
+                <xs:element dfdl:length="3" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit069 else 0)}" ibmDfdlExtn:sampleValue="826" minOccurs="0" name="SettlementInstitutionCountryCode_069">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="3" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit070 else 0)}" ibmDfdlExtn:sampleValue="270" minOccurs="0" name="NetworkManagementInformationCode_070">
+                <xs:element dfdl:length="3" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit070 else 0)}" ibmDfdlExtn:sampleValue="270" minOccurs="0" name="NetworkManagementInformationCode_070">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="4" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit071 else 0)}" ibmDfdlExtn:sampleValue="1234" minOccurs="0" name="MessageNumber_071">
+                <xs:element dfdl:length="4" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit071 else 0)}" ibmDfdlExtn:sampleValue="1234" minOccurs="0" name="MessageNumber_071">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="4" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit072 else 0)}" ibmDfdlExtn:sampleValue="1234" minOccurs="0" name="MessageNumberLast_072">
+                <xs:element dfdl:length="4" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit072 else 0)}" ibmDfdlExtn:sampleValue="1234" minOccurs="0" name="MessageNumberLast_072">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="6" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit073 else 0)}" dfdl:textNumberPadCharacter="0" ibmDfdlExtn:sampleValue="2001-12-31" minOccurs="0" name="DateAction_073">
+                <xs:element dfdl:length="6" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit073 else 0)}" dfdl:textNumberPadCharacter="0" ibmDfdlExtn:sampleValue="2001-12-31" minOccurs="0" name="DateAction_073">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_date"/>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="10" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit074 else 0)}" ibmDfdlExtn:sampleValue="1234567890" minOccurs="0" name="CreditsNumber_074">
+                <xs:element dfdl:length="10" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit074 else 0)}" ibmDfdlExtn:sampleValue="1234567890" minOccurs="0" name="CreditsNumber_074">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="10" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit075 else 0)}" ibmDfdlExtn:sampleValue="1234567890" minOccurs="0" name="CreditsReversalNumber_075">
+                <xs:element dfdl:length="10" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit075 else 0)}" ibmDfdlExtn:sampleValue="1234567890" minOccurs="0" name="CreditsReversalNumber_075">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="10" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit076 else 0)}" ibmDfdlExtn:sampleValue="1234567890" minOccurs="0" name="DebitsNumber_076">
+                <xs:element dfdl:length="10" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit076 else 0)}" ibmDfdlExtn:sampleValue="1234567890" minOccurs="0" name="DebitsNumber_076">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="10" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit077 else 0)}" ibmDfdlExtn:sampleValue="1234567890" minOccurs="0" name="DebitsReversalNumber_077">
+                <xs:element dfdl:length="10" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit077 else 0)}" ibmDfdlExtn:sampleValue="1234567890" minOccurs="0" name="DebitsReversalNumber_077">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="10" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit078 else 0)}" ibmDfdlExtn:sampleValue="1234567890" minOccurs="0" name="TransferNumber_078">
+                <xs:element dfdl:length="10" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit078 else 0)}" ibmDfdlExtn:sampleValue="1234567890" minOccurs="0" name="TransferNumber_078">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="10" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit079 else 0)}" ibmDfdlExtn:sampleValue="1234567890" minOccurs="0" name="TransferReversalNumber_079">
+                <xs:element dfdl:length="10" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit079 else 0)}" ibmDfdlExtn:sampleValue="1234567890" minOccurs="0" name="TransferReversalNumber_079">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="10" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit080 else 0)}" ibmDfdlExtn:sampleValue="1234567890" minOccurs="0" name="InquiriesNumber_080">
+                <xs:element dfdl:length="10" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit080 else 0)}" ibmDfdlExtn:sampleValue="1234567890" minOccurs="0" name="InquiriesNumber_080">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="10" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit081 else 0)}" ibmDfdlExtn:sampleValue="1234567890" minOccurs="0" name="AuthorizationsNumber_081">
+                <xs:element dfdl:length="10" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit081 else 0)}" ibmDfdlExtn:sampleValue="1234567890" minOccurs="0" name="AuthorizationsNumber_081">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="12" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit082 else 0)}" ibmDfdlExtn:sampleValue="123456789012" minOccurs="0" name="CreditsProcessingFeeAmount_082">
+                <xs:element dfdl:length="12" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit082 else 0)}" ibmDfdlExtn:sampleValue="123456789012" minOccurs="0" name="CreditsProcessingFeeAmount_082">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="12" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit083 else 0)}" ibmDfdlExtn:sampleValue="123456789012" minOccurs="0" name="CreditsTransactionFeeAmount_083">
+                <xs:element dfdl:length="12" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit083 else 0)}" ibmDfdlExtn:sampleValue="123456789012" minOccurs="0" name="CreditsTransactionFeeAmount_083">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="12" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit084 else 0)}" ibmDfdlExtn:sampleValue="123456789012" minOccurs="0" name="DebitsProcessingFeeAmount_084">
+                <xs:element dfdl:length="12" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit084 else 0)}" ibmDfdlExtn:sampleValue="123456789012" minOccurs="0" name="DebitsProcessingFeeAmount_084">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="12" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit085 else 0)}" ibmDfdlExtn:sampleValue="123456789012" minOccurs="0" name="DebitsTransactionFeeAmount_085">
+                <xs:element dfdl:length="12" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit085 else 0)}" ibmDfdlExtn:sampleValue="123456789012" minOccurs="0" name="DebitsTransactionFeeAmount_085">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="16" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit086 else 0)}" ibmDfdlExtn:sampleValue="1234567890123456" minOccurs="0" name="CreditsAmount_086">
+                <xs:element dfdl:length="16" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit086 else 0)}" ibmDfdlExtn:sampleValue="1234567890123456" minOccurs="0" name="CreditsAmount_086">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="16" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit087 else 0)}" ibmDfdlExtn:sampleValue="1234567890123456" minOccurs="0" name="CreditsReversalAmount_087">
+                <xs:element dfdl:length="16" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit087 else 0)}" ibmDfdlExtn:sampleValue="1234567890123456" minOccurs="0" name="CreditsReversalAmount_087">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="16" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit088 else 0)}" ibmDfdlExtn:sampleValue="1234567890123456" minOccurs="0" name="DebitsAmount_088">
+                <xs:element dfdl:length="16" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit088 else 0)}" ibmDfdlExtn:sampleValue="1234567890123456" minOccurs="0" name="DebitsAmount_088">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="16" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit089 else 0)}" ibmDfdlExtn:sampleValue="1234567890123456" minOccurs="0" name="DebitsReversalAmount_089">
+                <xs:element dfdl:length="16" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit089 else 0)}" ibmDfdlExtn:sampleValue="1234567890123456" minOccurs="0" name="DebitsReversalAmount_089">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="42" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit090 else 0)}" ibmDfdlExtn:sampleValue="123456789012345678901234567890123456789012" minOccurs="0" name="OriginalDataElements_090">
+                <xs:element dfdl:length="42" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit090 else 0)}" ibmDfdlExtn:sampleValue="123456789012345678901234567890123456789012" minOccurs="0" name="OriginalDataElements_090">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="1" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit091 else 0)}" ibmDfdlExtn:sampleValue="a" minOccurs="0" name="FileUpdateCode_091">
+                <xs:element dfdl:length="1" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit091 else 0)}" ibmDfdlExtn:sampleValue="a" minOccurs="0" name="FileUpdateCode_091">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_an_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="2" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit092 else 0)}" ibmDfdlExtn:sampleValue="12" minOccurs="0" name="FileSecurityCode_092">
+                <xs:element dfdl:length="2" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit092 else 0)}" ibmDfdlExtn:sampleValue="12" minOccurs="0" name="FileSecurityCode_092">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="5" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit093 else 0)}" ibmDfdlExtn:sampleValue="a1a1a" minOccurs="0" name="ResponseIndicator_093">
+                <xs:element dfdl:length="5" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit093 else 0)}" ibmDfdlExtn:sampleValue="a1a1a" minOccurs="0" name="ResponseIndicator_093">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_an_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="7" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit094 else 0)}" ibmDfdlExtn:sampleValue="a1a1a1a" minOccurs="0" name="ServiceIndicator_094">
+                <xs:element dfdl:length="7" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit094 else 0)}" ibmDfdlExtn:sampleValue="a1a1a1a" minOccurs="0" name="ServiceIndicator_094">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_an_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="42" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit095 else 0)}" ibmDfdlExtn:sampleValue="a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1" minOccurs="0" name="ReplacementAmounts_095">
+                <xs:element dfdl:length="42" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit095 else 0)}" ibmDfdlExtn:sampleValue="a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1" minOccurs="0" name="ReplacementAmounts_095">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_an_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="8" dfdl:lengthUnits="bytes" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit096 else 0)}" ibmDfdlExtn:sampleValue="0F0F0F0F0F0F0F0F" minOccurs="0" name="MessageSecurityCode_096">
+                <xs:element dfdl:length="8" dfdl:lengthUnits="bytes" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit096 else 0)}" ibmDfdlExtn:sampleValue="0F0F0F0F0F0F0F0F" minOccurs="0" name="MessageSecurityCode_096">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_b_hexBinary"/>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="16" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit097 else 0)}" ibmDfdlExtn:sampleValue="1111111111111111" minOccurs="0" name="AmountNetSettlement_097">
+                <xs:element dfdl:length="16" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit097 else 0)}" ibmDfdlExtn:sampleValue="1111111111111111" minOccurs="0" name="AmountNetSettlement_097">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="25" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit098 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#a1#a1#a1#a1#a1#a" minOccurs="0" name="Payee_098">
+                <xs:element dfdl:length="25" dfdl:lengthUnits="characters" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit098 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#a1#a1#a1#a1#a1#a" minOccurs="0" name="Payee_098">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_ans_string">
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit099 else 0)}" ibmDfdlExtn:sampleValue="11111111111" minOccurs="0" name="SettlementInstitutionIdentificationCode_099">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit099 else 0)}" ibmDfdlExtn:sampleValue="11111111111" minOccurs="0" name="SettlementInstitutionIdentificationCode_099">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_LL">
                             <xs:minLength value="1"/>
@@ -819,7 +819,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit100 else 0)}" ibmDfdlExtn:sampleValue="11111111111" minOccurs="0" name="ReceivingInstitutionIdentificationCode_100">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit100 else 0)}" ibmDfdlExtn:sampleValue="11111111111" minOccurs="0" name="ReceivingInstitutionIdentificationCode_100">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_LL">
                             <xs:minLength value="1"/>
@@ -827,7 +827,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit101 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#a1#a1#a1" minOccurs="0" name="FileName_101">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit101 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#a1#a1#a1" minOccurs="0" name="FileName_101">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_ans_LL">
                             <xs:minLength value="1"/>
@@ -835,7 +835,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit102 else 0)}" ibmDfdlExtn:sampleValue="1111111111111111111111111111" minOccurs="0" name="AccountIdentification1_102">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit102 else 0)}" ibmDfdlExtn:sampleValue="1111111111111111111111111111" minOccurs="0" name="AccountIdentification1_102">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_LL">
                             <xs:minLength value="1"/>
@@ -843,7 +843,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit103 else 0)}" ibmDfdlExtn:sampleValue="1111111111111111111111111111" minOccurs="0" name="AccountIdentification2_103">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit103 else 0)}" ibmDfdlExtn:sampleValue="1111111111111111111111111111" minOccurs="0" name="AccountIdentification2_103">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_n_LL">
                             <xs:minLength value="1"/>
@@ -851,7 +851,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit104 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="TransactionDescription_104">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit104 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="TransactionDescription_104">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_ans_LLL">
                             <xs:minLength value="1"/>
@@ -859,7 +859,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit105 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedISO_105">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit105 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedISO_105">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_ans_LLL">
                             <xs:minLength value="1"/>
@@ -867,7 +867,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit106 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedISO_106">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit106 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedISO_106">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_ans_LLL">
                             <xs:minLength value="1"/>
@@ -875,7 +875,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit107 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedISO_107">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit107 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedISO_107">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_ans_LLL">
                             <xs:minLength value="1"/>
@@ -883,7 +883,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit108 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedISO_108">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit108 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedISO_108">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_ans_LLL">
                             <xs:minLength value="1"/>
@@ -891,7 +891,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit109 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedISO_109">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit109 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedISO_109">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_ans_LLL">
                             <xs:minLength value="1"/>
@@ -899,7 +899,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit110 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedISO_110">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit110 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedISO_110">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_ans_LLL">
                             <xs:minLength value="1"/>
@@ -907,7 +907,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit111 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedISO_111">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit111 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedISO_111">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_ans_LLL">
                             <xs:minLength value="1"/>
@@ -915,7 +915,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit112 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedNational_112">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit112 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedNational_112">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_ans_LLL">
                             <xs:minLength value="1"/>
@@ -923,7 +923,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit113 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedNational_113">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit113 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedNational_113">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_ans_LLL">
                             <xs:minLength value="1"/>
@@ -931,7 +931,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit114 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedNational_114">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit114 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedNational_114">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_ans_LLL">
                             <xs:minLength value="1"/>
@@ -939,7 +939,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit115 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedNational_115">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit115 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedNational_115">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_ans_LLL">
                             <xs:minLength value="1"/>
@@ -947,7 +947,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit116 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedNational_116">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit116 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedNational_116">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_ans_LLL">
                             <xs:minLength value="1"/>
@@ -955,7 +955,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit117 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedNational_117">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit117 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedNational_117">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_ans_LLL">
                             <xs:minLength value="1"/>
@@ -963,7 +963,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit118 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedNational_118">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit118 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedNational_118">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_ans_LLL">
                             <xs:minLength value="1"/>
@@ -971,7 +971,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit119 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedNational_119">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit119 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedNational_119">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_ans_LLL">
                             <xs:minLength value="1"/>
@@ -979,7 +979,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit120 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedPrivate_120">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit120 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedPrivate_120">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_ans_LLL">
                             <xs:minLength value="1"/>
@@ -987,7 +987,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit121 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedPrivate_121">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit121 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedPrivate_121">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_ans_LLL">
                             <xs:minLength value="1"/>
@@ -995,7 +995,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit122 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedPrivate_122">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit122 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedPrivate_122">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_ans_LLL">
                             <xs:minLength value="1"/>
@@ -1003,7 +1003,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit123 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedPrivate_123">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit123 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedPrivate_123">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_ans_LLL">
                             <xs:minLength value="1"/>
@@ -1011,7 +1011,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit124 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedPrivate_124">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit124 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedPrivate_124">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_ans_LLL">
                             <xs:minLength value="1"/>
@@ -1019,7 +1019,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit125 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedPrivate_125">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit125 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedPrivate_125">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_ans_LLL">
                             <xs:minLength value="1"/>
@@ -1027,7 +1027,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit126 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedPrivate_126">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit126 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedPrivate_126">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_ans_LLL">
                             <xs:minLength value="1"/>
@@ -1035,7 +1035,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit127 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedPrivate_127">
+                <xs:element dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit127 else 0)}" ibmDfdlExtn:sampleValue="a1#a1#a1#" minOccurs="0" name="ReservedPrivate_127">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_ans_LLL">
                             <xs:minLength value="1"/>
@@ -1043,7 +1043,7 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
-                <xs:element dfdl:length="8" dfdl:lengthUnits="bytes" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap/Bit128 else 0)}" ibmDfdlExtn:sampleValue="0F0F0F0F0F0F0F0F" minOccurs="0" name="MessageAuthenticationCode_128">
+                <xs:element dfdl:length="8" dfdl:lengthUnits="bytes" dfdl:occursCount="{xs:nonNegativeInteger(if ($isofmt:secondaryBitmapExists) then /ISO8583_1987/SecondaryBitmap[1]/Bit128 else 0)}" ibmDfdlExtn:sampleValue="0F0F0F0F0F0F0F0F" minOccurs="0" name="MessageAuthenticationCode_128">
                     <xs:simpleType>
                         <xs:restriction base="isotyp:Type_b_hexBinary"/>
                     </xs:simpleType>
