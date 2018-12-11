@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testSuite suiteName="ISO8583"
+  xmlns:iso8583="http://www.ibm.com/dfdl/ISO8583-1993"
+  xmlns="http://www.ibm.com/xmlns/dfdl/testData"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:dfdl="http://www.ogf.org/dfdl/dfdl-1.0/"
+  xmlns:tdml="http://www.ibm.com/xmlns/dfdl/testData"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  defaultRoundTrip="onePass">
+
+  <tdml:parserTestCase name="iso8583_1993_1" root="ISO8583_1993" model="com/ibm/iso8583/1993/ISO8583_1993.xsd">
+    <tdml:document>
+      <tdml:documentPart type="file">com/ibm/iso8583/1993/data/ISO8583_1993_Test_Data_1.txt</tdml:documentPart>
+    </tdml:document>
+    <tdml:infoset>
+      <tdml:dfdlInfoset type="file">com/ibm/iso8583/1993/infosets/ISO8583_1993_Test_Data_1.xml</tdml:dfdlInfoset>
+    </tdml:infoset>
+  </tdml:parserTestCase>
+
+  <tdml:parserTestCase name="iso8583_1993_1_Unpacked" root="ISO8583_1993_Unpacked" model="com/ibm/iso8583/1993/ISO8583_1993_Unpacked.xsd">
+    <tdml:document>
+      <tdml:documentPart type="file">com/ibm/iso8583/1993/data/ISO8583_1993_Test_Data_1_Unpacked.txt</tdml:documentPart>
+    </tdml:document>
+    <tdml:infoset>
+      <tdml:dfdlInfoset type="file">com/ibm/iso8583/1993/infosets/ISO8583_1993_Test_Data_1_Unpacked.xml</tdml:dfdlInfoset>
+    </tdml:infoset>
+  </tdml:parserTestCase>
+
+  <tdml:parserTestCase name="iso8583_1993_2" root="ISO8583_1993" model="com/ibm/iso8583/1993/ISO8583_1993.xsd">
+    <tdml:document>
+      <tdml:documentPart type="file">com/ibm/iso8583/1993/data/ISO8583_1993_Test_Data_2.txt</tdml:documentPart>
+    </tdml:document>
+    <tdml:infoset>
+      <tdml:dfdlInfoset type="file">com/ibm/iso8583/1993/infosets/ISO8583_1993_Test_Data_2.xml</tdml:dfdlInfoset>
+    </tdml:infoset>
+  </tdml:parserTestCase>
+
+  <tdml:parserTestCase name="iso8583_1993_2_Unpacked" root="ISO8583_1993_Unpacked" model="com/ibm/iso8583/1993/ISO8583_1993_Unpacked.xsd">
+    <tdml:document>
+      <tdml:documentPart type="file">com/ibm/iso8583/1993/data/ISO8583_1993_Test_Data_2_Unpacked.txt</tdml:documentPart>
+    </tdml:document>
+    <tdml:infoset>
+      <tdml:dfdlInfoset type="file">com/ibm/iso8583/1993/infosets/ISO8583_1993_Test_Data_2_Unpacked.xml</tdml:dfdlInfoset>
+    </tdml:infoset>
+  </tdml:parserTestCase>
+
+  <tdml:parserTestCase name="iso8583_1987_1" root="ISO8583_1987" model="com/ibm/iso8583/1987/ISO8583_1987.xsd">
+    <tdml:document>
+      <tdml:documentPart type="file">com/ibm/iso8583/1987/data/ISO8583_1987_Test_Data_1.txt</tdml:documentPart>
+    </tdml:document>
+    <tdml:infoset>
+      <tdml:dfdlInfoset type="file">com/ibm/iso8583/1987/infosets/ISO8583_1987_Test_Data_1.xml</tdml:dfdlInfoset>
+    </tdml:infoset>
+  </tdml:parserTestCase>
+
+  <tdml:parserTestCase name="iso8583_1987_1_Unpacked" root="ISO8583_1987_Unpacked" model="com/ibm/iso8583/1987/ISO8583_1987_Unpacked.xsd">
+    <tdml:document>
+      <tdml:documentPart type="file">com/ibm/iso8583/1987/data/ISO8583_1987_Test_Data_1_Unpacked.txt</tdml:documentPart>
+    </tdml:document>
+    <tdml:infoset>
+      <tdml:dfdlInfoset type="file">com/ibm/iso8583/1987/infosets/ISO8583_1987_Test_Data_1_Unpacked.xml</tdml:dfdlInfoset>
+    </tdml:infoset>
+  </tdml:parserTestCase>
+
+  <tdml:parserTestCase name="iso8583_1987_2" root="ISO8583_1987" model="com/ibm/iso8583/1987/ISO8583_1987.xsd">
+    <tdml:document>
+      <tdml:documentPart type="file">com/ibm/iso8583/1987/data/ISO8583_1987_Test_Data_2.txt</tdml:documentPart>
+    </tdml:document>
+    <tdml:infoset>
+      <tdml:dfdlInfoset type="file">com/ibm/iso8583/1987/infosets/ISO8583_1987_Test_Data_2.xml</tdml:dfdlInfoset>
+    </tdml:infoset>
+  </tdml:parserTestCase>
+
+  <tdml:parserTestCase name="iso8583_1987_2_Unpacked" root="ISO8583_1987_Unpacked" model="com/ibm/iso8583/1987/ISO8583_1987_Unpacked.xsd">
+    <tdml:document>
+      <tdml:documentPart type="file">com/ibm/iso8583/1987/data/ISO8583_1987_Test_Data_2_Unpacked.txt</tdml:documentPart>
+    </tdml:document>
+    <tdml:infoset>
+      <tdml:dfdlInfoset type="file">com/ibm/iso8583/1987/infosets/ISO8583_1987_Test_Data_2_Unpacked.xml</tdml:dfdlInfoset>
+    </tdml:infoset>
+  </tdml:parserTestCase>
+
+  <tdml:parserTestCase name="iso8583_1987_3" root="ISO8583_1987" model="com/ibm/iso8583/1987/ISO8583_1987.xsd">
+    <tdml:document>
+      <tdml:documentPart type="file">com/ibm/iso8583/1987/data/ISO8583_1987_Test_Data_3.txt</tdml:documentPart>
+    </tdml:document>
+    <tdml:infoset>
+      <tdml:dfdlInfoset type="file">com/ibm/iso8583/1987/infosets/ISO8583_1987_Test_Data_3.xml</tdml:dfdlInfoset>
+    </tdml:infoset>
+  </tdml:parserTestCase>
+
+  <tdml:parserTestCase name="iso8583_1987_3_Unpacked" root="ISO8583_1987_Unpacked" model="com/ibm/iso8583/1987/ISO8583_1987_Unpacked.xsd">
+    <tdml:document>
+      <tdml:documentPart type="file">com/ibm/iso8583/1987/data/ISO8583_1987_Test_Data_3_Unpacked.txt</tdml:documentPart>
+    </tdml:document>
+    <tdml:infoset>
+      <tdml:dfdlInfoset type="file">com/ibm/iso8583/1987/infosets/ISO8583_1987_Test_Data_3_Unpacked.xml</tdml:dfdlInfoset>
+    </tdml:infoset>
+  </tdml:parserTestCase>
+
+</testSuite>
+      
