@@ -48,7 +48,7 @@
 	<xs:annotation>
 		<xs:appinfo source="http://www.ogf.org/dfdl/">
 
-	        <dfdl:defineVariable defaultValue="false" external="false" name="secondaryBitmapExists" type="xs:boolean"/>
+	        <dfdl:defineVariable defaultValue="{ fn:false() }" external="false" name="secondaryBitmapExists" type="xs:boolean"/>
 
 			<dfdl:defineFormat name="ISO8583Format">
 				<dfdl:format encoding="US-ASCII" ignoreCase="no" byteOrder="bigEndian" 
