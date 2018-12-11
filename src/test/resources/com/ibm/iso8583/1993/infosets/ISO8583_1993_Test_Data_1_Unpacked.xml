@@ -50,7 +50,7 @@
   <ConversionRateReconciliation_009 xmlns="" xsi:type="xs:string">12345678</ConversionRateReconciliation_009>
   <ConversionRateCardholderBilling_010 xmlns="" xsi:type="xs:string">12345678</ConversionRateCardholderBilling_010>
   <SystemsTraceAuditNumber_011 xmlns="" xsi:type="xs:string">123456</SystemsTraceAuditNumber_011>
-  <DateTimeLocalTransaction_012 xmlns="" xsi:type="xs:dateTime">1999-12-31T12:00:00.000000+00:00</DateTimeLocalTransaction_012>
+  <DateTimeLocalTransaction_012 xmlns="" xsi:type="xs:dateTime">1999-12-31T12:00:00+00:00</DateTimeLocalTransaction_012>
   <DateEffective_013 xmlns="" xsi:type="xs:string">9912</DateEffective_013>
   <DateExpiration_014 xmlns="" xsi:type="xs:string">9912</DateExpiration_014>
   <DateSettlement_015 xmlns="" xsi:type="xs:date">1999-12-31+00:00</DateSettlement_015>

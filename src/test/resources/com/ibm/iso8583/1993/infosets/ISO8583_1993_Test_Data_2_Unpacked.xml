@@ -43,7 +43,7 @@
   <ProcessingCode_003 xmlns="" xsi:type="xs:string">200000</ProcessingCode_003>
   <AmountTransaction_004 xmlns="" xsi:type="xs:decimal">122312</AmountTransaction_004>
   <SystemsTraceAuditNumber_011 xmlns="" xsi:type="xs:string">125689</SystemsTraceAuditNumber_011>
-  <DateTimeLocalTransaction_012 xmlns="" xsi:type="xs:dateTime">2013-04-13T05:32:51.000000+00:00</DateTimeLocalTransaction_012>
+  <DateTimeLocalTransaction_012 xmlns="" xsi:type="xs:dateTime">2013-04-13T05:32:51+00:00</DateTimeLocalTransaction_012>
   <FunctionCode_024 xmlns="" xsi:type="xs:string">302</FunctionCode_024>
   <DateReconciliation_028 xmlns="" xsi:type="xs:date">2013-04-13+00:00</DateReconciliation_028>
   <AcquiringInstitutionIdentificationCode_032 xmlns="" xsi:type="xs:string">12345678901</AcquiringInstitutionIdentificationCode_032>
