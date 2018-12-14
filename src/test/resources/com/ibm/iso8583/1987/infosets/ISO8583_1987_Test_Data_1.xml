@@ -146,7 +146,7 @@
   <ConversionRateSettlement_009 xsi:type="xs:string">76887050</ConversionRateSettlement_009>
   <ConversionRateCardholderBilling_010 xsi:type="xs:string">69972522</ConversionRateCardholderBilling_010>
   <SystemsTraceAuditNumber_011 xsi:type="xs:string">999999</SystemsTraceAuditNumber_011>
-  <TimeLocalTransaction_012 xsi:type="xs:time">23:59:59+00:00</TimeLocalTransaction_012>
+  <TimeLocalTransaction_012 xsi:type="xs:time">23:59:59.000000+00:00</TimeLocalTransaction_012>
   <DateLocalTransaction_013 xsi:type="xs:string">1231</DateLocalTransaction_013>
   <DateExpiration_014 xsi:type="xs:string">0112</DateExpiration_014>
   <DateSettlement_015 xsi:type="xs:string">1201</DateSettlement_015>

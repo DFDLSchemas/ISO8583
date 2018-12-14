@@ -43,7 +43,7 @@
   <ProcessingCode_003 xsi:type="xs:string">890035</ProcessingCode_003>
   <AmountTransaction_004 xsi:type="xs:decimal">1001</AmountTransaction_004>
   <TransmissionDatetime_007 xsi:type="xs:string">0123165309</TransmissionDatetime_007>
-  <TimeLocalTransaction_012 xsi:type="xs:time">16:53:09+00:00</TimeLocalTransaction_012>
+  <TimeLocalTransaction_012 xsi:type="xs:time">16:53:09.000000+00:00</TimeLocalTransaction_012>
   <DateLocalTransaction_013 xsi:type="xs:string">0123</DateLocalTransaction_013>
   <DateSettlement_015 xsi:type="xs:string">0123</DateSettlement_015>
   <AcquiringInstitutionIdentificationCode_032 xsi:type="xs:string">11592</AcquiringInstitutionIdentificationCode_032>
