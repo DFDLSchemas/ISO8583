@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src/main/resources"/>
 	<classpathentry kind="src" path="src/test/resources"/>
+	<classpathentry kind="src" path="src/test/scala"/>
 	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
@@ -11,6 +12,7 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/daffodil-macro-lib"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/daffodil-runtime1"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/daffodil-runtime1-unparser"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/daffodil-tdml"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/daffodil-tdml-lib"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/daffodil-tdml-processor"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
