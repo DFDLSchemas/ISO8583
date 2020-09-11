@@ -20,8 +20,7 @@ The DFDL schemas for ISO8583 are in the '1987', '1993' and 'Common' folders, and
 
 Test data and infosets are included.
 
-The DFDL schemas are compatible with IBM DFDL 1.0 and 1.1 releases, as shipped in IBM WebSphere Message Broker 8.0.0.2
-onwards and IBM Integration Bus 9.0.0.1 onwards, respectively.
+The DFDL schemas are compatible with IBM DFDL 1.1 release, as shipped in IBM Integration Bus 9.0.0.1 onwards and IBM App Connect Enterprise 11.0.0.0 onwards.
 
 Note that the dfdl:occursCount expressions used in the model for the 'unpacked' format use the fn:contains() function. 
 A more natural approach is to use the dfdl:testBit() function but that is not yet supported by IBM DFDL.
@@ -36,7 +35,7 @@ If the ISO8583 message is received over TCP/IP then it is usual for a 2 or 4 byt
 If modeling ISO8583 messages as used in the People's Republic of China, change dfdl:encoding to 'GB2312'.
 
 ----------------
-IBM WebSphere Message Broker and IBM Integration Bus
+IBM App Connect Enterprise and IBM Integration Bus
 
 It is recommended that each folder becomes a folder of the same name in a single library project.
 
