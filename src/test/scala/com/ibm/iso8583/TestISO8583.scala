@@ -7,8 +7,8 @@ import org.apache.daffodil.tdml.Runner
 object TestISO8583 {
   val runner = Runner("/com/ibm/iso8583/", "ISO8583.tdml")
 
-  @AfterClass def shutDown {
-    runner.reset
+  @AfterClass def shutDown = {
+    runner.reset()
   }
 }
 
