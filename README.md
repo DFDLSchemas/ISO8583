@@ -7,7 +7,7 @@ There are DFDL schemas for the two most popular releases of the standard:
     ISO8583-1:1987 
     ISO8583-1:1993 
 
-To download the repository go to http://dfdlschemas.github.com/ISO8583/.
+To download the repository go to http://dfdlschemas.github.io/ISO8583/.
 
 ----------------
 ISO8583 messages consist of a number of optional fixed-length or prefixed-length fields without initiators.
